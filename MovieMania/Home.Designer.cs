@@ -29,249 +29,205 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pnlHomeContent = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.lblHomeTitle = new System.Windows.Forms.Label();
+            this.pnlNav = new System.Windows.Forms.Panel();
+            this.btnRentals = new System.Windows.Forms.Button();
+            this.btnHome = new System.Windows.Forms.Button();
+            this.btnStatistics = new System.Windows.Forms.Button();
+            this.btnBrowse = new System.Windows.Forms.Button();
+            this.pnlScrollRightCover = new System.Windows.Forms.Panel();
+            this.pnlTabCover = new System.Windows.Forms.Panel();
+            this.pnlBottomBanner = new System.Windows.Forms.Panel();
             this.tcOptions = new System.Windows.Forms.TabControl();
             this.tabHome = new System.Windows.Forms.TabPage();
             this.tabBrowse = new System.Windows.Forms.TabPage();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.pnlSearch = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pnlBrowseContent = new System.Windows.Forms.Panel();
+            this.pnlSearchContainer = new System.Windows.Forms.Panel();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.lblBrowseTitle = new System.Windows.Forms.Label();
             this.tabRentals = new System.Windows.Forms.TabPage();
+            this.pnlRentalContent = new System.Windows.Forms.Panel();
+            this.lblRentalHistoryTitle = new System.Windows.Forms.Label();
+            this.pnlRentalHistory0 = new System.Windows.Forms.Panel();
+            this.lblRentalHistoryReturnVal0 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryReturn0 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryDateVal0 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryDate0 = new System.Windows.Forms.Label();
+            this.btnHistoryRent0 = new System.Windows.Forms.Button();
+            this.pnlRentalHistory1 = new System.Windows.Forms.Panel();
+            this.lblRentalHistoryReturnVal1 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryReturn1 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryDateVal1 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryDate1 = new System.Windows.Forms.Label();
+            this.btnHistoryRent1 = new System.Windows.Forms.Button();
+            this.pnlRentalHistory2 = new System.Windows.Forms.Panel();
+            this.lblRentalHistoryReturnVal2 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryReturn2 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryDateVal2 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryDate2 = new System.Windows.Forms.Label();
+            this.btnHistoryRent2 = new System.Windows.Forms.Button();
+            this.pnlRentalHistory3 = new System.Windows.Forms.Panel();
+            this.lblRentalHistoryReturnVal3 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryReturn3 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryDateVal3 = new System.Windows.Forms.Label();
+            this.lblRentalHistoryDate3 = new System.Windows.Forms.Label();
+            this.btnHistoryRent3 = new System.Windows.Forms.Button();
+            this.lblRentalsTitle = new System.Windows.Forms.Label();
+            this.pnlCurrentRental0 = new System.Windows.Forms.Panel();
+            this.lblCurrentRetDateVal0 = new System.Windows.Forms.Label();
+            this.lblCurrentRetDate0 = new System.Windows.Forms.Label();
+            this.lblCurrentRenDateVal0 = new System.Windows.Forms.Label();
+            this.lblCurrentRenDate0 = new System.Windows.Forms.Label();
+            this.btnCurrentRentalReturn0 = new System.Windows.Forms.Button();
+            this.pnlCurrentRental1 = new System.Windows.Forms.Panel();
+            this.lblCurrentRetDateVal1 = new System.Windows.Forms.Label();
+            this.lblCurrentRetDate1 = new System.Windows.Forms.Label();
+            this.lblCurrentRenDateVal1 = new System.Windows.Forms.Label();
+            this.lblCurrentRenDate1 = new System.Windows.Forms.Label();
+            this.btnCurrentRentalReturn1 = new System.Windows.Forms.Button();
+            this.pnlCurrentRental2 = new System.Windows.Forms.Panel();
+            this.lblCurrentRetDateVal2 = new System.Windows.Forms.Label();
+            this.lblCurrentRetDate2 = new System.Windows.Forms.Label();
+            this.lblCurrentRenDateVal2 = new System.Windows.Forms.Label();
+            this.lblCurrentRenDate2 = new System.Windows.Forms.Label();
+            this.btnCurrentRentalReturn2 = new System.Windows.Forms.Button();
+            this.pnlCurrentRental3 = new System.Windows.Forms.Panel();
+            this.lblCurrentRetDateVal3 = new System.Windows.Forms.Label();
+            this.lblCurrentRetDate3 = new System.Windows.Forms.Label();
+            this.lblCurrentRenDateVal3 = new System.Windows.Forms.Label();
+            this.lblCurrentRenDate3 = new System.Windows.Forms.Label();
+            this.btnCurrentRentalReturn3 = new System.Windows.Forms.Button();
             this.tabStats = new System.Windows.Forms.TabPage();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.pictureBox36 = new System.Windows.Forms.PictureBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
-            this.pictureBox37 = new System.Windows.Forms.PictureBox();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.button12 = new System.Windows.Forms.Button();
-            this.pictureBox38 = new System.Windows.Forms.PictureBox();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.label54 = new System.Windows.Forms.Label();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.label58 = new System.Windows.Forms.Label();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pblStatisticsContent = new System.Windows.Forms.Panel();
+            this.pnlGraphs = new System.Windows.Forms.Panel();
+            this.pnlCurrentMembers = new System.Windows.Forms.Panel();
+            this.lblCurrentMembersVal = new System.Windows.Forms.Label();
+            this.lblCurrentMembers = new System.Windows.Forms.Label();
+            this.lblStatisticsTitle = new System.Windows.Forms.Label();
+            this.pnlMoviesRented = new System.Windows.Forms.Panel();
+            this.lblMoviesRentedVal = new System.Windows.Forms.Label();
+            this.lblMoviesRented = new System.Windows.Forms.Label();
+            this.pnlTopBanner = new System.Windows.Forms.Panel();
+            this.pboLogo = new System.Windows.Forms.PictureBox();
+            this.pboMov11 = new System.Windows.Forms.PictureBox();
+            this.pboMov10 = new System.Windows.Forms.PictureBox();
+            this.pboMov8 = new System.Windows.Forms.PictureBox();
+            this.pboMov9 = new System.Windows.Forms.PictureBox();
+            this.pboMov3 = new System.Windows.Forms.PictureBox();
+            this.pboMov2 = new System.Windows.Forms.PictureBox();
+            this.pboMov7 = new System.Windows.Forms.PictureBox();
+            this.pboMov1 = new System.Windows.Forms.PictureBox();
+            this.pboMov0 = new System.Windows.Forms.PictureBox();
+            this.pboMov6 = new System.Windows.Forms.PictureBox();
+            this.pboMov4 = new System.Windows.Forms.PictureBox();
+            this.pboMov5 = new System.Windows.Forms.PictureBox();
+            this.pboSearchIcon = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov11 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov10 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov8 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov9 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov3 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov2 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov7 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov1 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov0 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov6 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov4 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov5 = new System.Windows.Forms.PictureBox();
+            this.pboRentalHistory0 = new System.Windows.Forms.PictureBox();
+            this.pboRentalHistory1 = new System.Windows.Forms.PictureBox();
+            this.pboRentalHistory2 = new System.Windows.Forms.PictureBox();
+            this.pboRentalHistory3 = new System.Windows.Forms.PictureBox();
+            this.pboCurrentRental0 = new System.Windows.Forms.PictureBox();
+            this.pboCurrentRental1 = new System.Windows.Forms.PictureBox();
+            this.pboCurrentRental2 = new System.Windows.Forms.PictureBox();
+            this.pboCurrentRental3 = new System.Windows.Forms.PictureBox();
+            this.pboGraphs = new System.Windows.Forms.PictureBox();
+            this.pnlHomeContent.SuspendLayout();
+            this.pnlNav.SuspendLayout();
             this.tcOptions.SuspendLayout();
             this.tabHome.SuspendLayout();
             this.tabBrowse.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.pnlSearch.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            this.pnlBrowseContent.SuspendLayout();
+            this.pnlSearchContainer.SuspendLayout();
             this.tabRentals.SuspendLayout();
+            this.pnlRentalContent.SuspendLayout();
+            this.pnlRentalHistory0.SuspendLayout();
+            this.pnlRentalHistory1.SuspendLayout();
+            this.pnlRentalHistory2.SuspendLayout();
+            this.pnlRentalHistory3.SuspendLayout();
+            this.pnlCurrentRental0.SuspendLayout();
+            this.pnlCurrentRental1.SuspendLayout();
+            this.pnlCurrentRental2.SuspendLayout();
+            this.pnlCurrentRental3.SuspendLayout();
             this.tabStats.SuspendLayout();
-            this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
-            this.panel11.SuspendLayout();
-            this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
-            this.panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
-            this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
-            this.panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
-            this.panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
-            this.panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
-            this.panel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
-            this.panel19.SuspendLayout();
-            this.panel24.SuspendLayout();
-            this.panel20.SuspendLayout();
-            this.panel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            this.pblStatisticsContent.SuspendLayout();
+            this.pnlGraphs.SuspendLayout();
+            this.pnlCurrentMembers.SuspendLayout();
+            this.pnlMoviesRented.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboSearchIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboGraphs)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel2
+            // pnlHomeContent
             // 
-            this.panel2.AutoScroll = true;
-            this.panel2.AutoScrollMargin = new System.Drawing.Size(0, 40);
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.panel2.Controls.Add(this.pictureBox10);
-            this.panel2.Controls.Add(this.pictureBox11);
-            this.panel2.Controls.Add(this.pictureBox12);
-            this.panel2.Controls.Add(this.pictureBox13);
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.pictureBox8);
-            this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.pictureBox9);
-            this.panel2.Controls.Add(this.pictureBox7);
-            this.panel2.Controls.Add(this.pictureBox6);
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(880, 682);
-            this.panel2.TabIndex = 10;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox10.Location = new System.Drawing.Point(654, 695);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 15;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox11.Location = new System.Drawing.Point(449, 695);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 14;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox12.Location = new System.Drawing.Point(39, 695);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 12;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox13.Location = new System.Drawing.Point(244, 695);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 13;
-            this.pictureBox13.TabStop = false;
+            this.pnlHomeContent.AutoScroll = true;
+            this.pnlHomeContent.AutoScrollMargin = new System.Drawing.Size(0, 40);
+            this.pnlHomeContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.pnlHomeContent.Controls.Add(this.pboMov11);
+            this.pnlHomeContent.Controls.Add(this.pboMov10);
+            this.pnlHomeContent.Controls.Add(this.pboMov8);
+            this.pnlHomeContent.Controls.Add(this.pboMov9);
+            this.pnlHomeContent.Controls.Add(this.panel3);
+            this.pnlHomeContent.Controls.Add(this.lblHomeTitle);
+            this.pnlHomeContent.Controls.Add(this.pboMov3);
+            this.pnlHomeContent.Controls.Add(this.pboMov2);
+            this.pnlHomeContent.Controls.Add(this.pboMov7);
+            this.pnlHomeContent.Controls.Add(this.pboMov1);
+            this.pnlHomeContent.Controls.Add(this.pboMov0);
+            this.pnlHomeContent.Controls.Add(this.pboMov6);
+            this.pnlHomeContent.Controls.Add(this.pboMov4);
+            this.pnlHomeContent.Controls.Add(this.pboMov5);
+            this.pnlHomeContent.Location = new System.Drawing.Point(0, 0);
+            this.pnlHomeContent.Name = "pnlHomeContent";
+            this.pnlHomeContent.Size = new System.Drawing.Size(880, 682);
+            this.pnlHomeContent.TabIndex = 10;
             // 
             // panel3
             // 
@@ -280,211 +236,113 @@
             this.panel3.Size = new System.Drawing.Size(860, 40);
             this.panel3.TabIndex = 11;
             // 
-            // label1
+            // lblHomeTitle
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label1.Location = new System.Drawing.Point(30, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(283, 50);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Popular Movies";
+            this.lblHomeTitle.AutoSize = true;
+            this.lblHomeTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHomeTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblHomeTitle.Location = new System.Drawing.Point(30, 30);
+            this.lblHomeTitle.Name = "lblHomeTitle";
+            this.lblHomeTitle.Size = new System.Drawing.Size(283, 50);
+            this.lblHomeTitle.TabIndex = 10;
+            this.lblHomeTitle.Text = "Popular Movies";
             // 
-            // pictureBox4
+            // pnlNav
             // 
-            this.pictureBox4.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox4.Location = new System.Drawing.Point(654, 109);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 5;
-            this.pictureBox4.TabStop = false;
+            this.pnlNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlNav.Controls.Add(this.btnRentals);
+            this.pnlNav.Controls.Add(this.btnHome);
+            this.pnlNav.Controls.Add(this.btnStatistics);
+            this.pnlNav.Controls.Add(this.btnBrowse);
+            this.pnlNav.Controls.Add(this.pboLogo);
+            this.pnlNav.Location = new System.Drawing.Point(42, 40);
+            this.pnlNav.Name = "pnlNav";
+            this.pnlNav.Size = new System.Drawing.Size(224, 682);
+            this.pnlNav.TabIndex = 11;
             // 
-            // pictureBox5
+            // btnRentals
             // 
-            this.pictureBox5.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox5.Location = new System.Drawing.Point(449, 109);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.btnRentals.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(47)))), ((int)(((byte)(56)))));
+            this.btnRentals.FlatAppearance.BorderSize = 0;
+            this.btnRentals.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnRentals.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRentals.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRentals.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnRentals.Location = new System.Drawing.Point(14, 352);
+            this.btnRentals.Name = "btnRentals";
+            this.btnRentals.Size = new System.Drawing.Size(197, 63);
+            this.btnRentals.TabIndex = 5;
+            this.btnRentals.Text = "Rentals";
+            this.btnRentals.UseVisualStyleBackColor = true;
             // 
-            // pictureBox8
+            // btnHome
             // 
-            this.pictureBox8.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox8.Location = new System.Drawing.Point(654, 402);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 9;
-            this.pictureBox8.TabStop = false;
+            this.btnHome.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(222)))), ((int)(((byte)(251)))));
+            this.btnHome.FlatAppearance.BorderSize = 0;
+            this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(186)))), ((int)(((byte)(230)))));
+            this.btnHome.Location = new System.Drawing.Point(14, 194);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(197, 63);
+            this.btnHome.TabIndex = 0;
+            this.btnHome.Text = "Home";
+            this.btnHome.UseVisualStyleBackColor = true;
             // 
-            // pictureBox3
+            // btnStatistics
             // 
-            this.pictureBox3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox3.Location = new System.Drawing.Point(244, 109);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
+            this.btnStatistics.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnStatistics.FlatAppearance.BorderSize = 0;
+            this.btnStatistics.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnStatistics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStatistics.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStatistics.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnStatistics.Location = new System.Drawing.Point(14, 431);
+            this.btnStatistics.Name = "btnStatistics";
+            this.btnStatistics.Size = new System.Drawing.Size(197, 63);
+            this.btnStatistics.TabIndex = 3;
+            this.btnStatistics.Text = "Statistics";
+            this.btnStatistics.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // btnBrowse
             // 
-            this.pictureBox2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox2.Location = new System.Drawing.Point(39, 109);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.btnBrowse.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnBrowse.FlatAppearance.BorderSize = 0;
+            this.btnBrowse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnBrowse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBrowse.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBrowse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnBrowse.Location = new System.Drawing.Point(14, 273);
+            this.btnBrowse.Name = "btnBrowse";
+            this.btnBrowse.Size = new System.Drawing.Size(197, 63);
+            this.btnBrowse.TabIndex = 1;
+            this.btnBrowse.Text = "Browse";
+            this.btnBrowse.UseVisualStyleBackColor = true;
             // 
-            // pictureBox9
+            // pnlScrollRightCover
             // 
-            this.pictureBox9.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox9.Location = new System.Drawing.Point(449, 402);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
+            this.pnlScrollRightCover.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.pnlScrollRightCover.Location = new System.Drawing.Point(1147, 39);
+            this.pnlScrollRightCover.Name = "pnlScrollRightCover";
+            this.pnlScrollRightCover.Size = new System.Drawing.Size(20, 683);
+            this.pnlScrollRightCover.TabIndex = 12;
             // 
-            // pictureBox7
+            // pnlTabCover
             // 
-            this.pictureBox7.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox7.Location = new System.Drawing.Point(39, 402);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.pnlTabCover.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(45)))), ((int)(((byte)(62)))));
+            this.pnlTabCover.Location = new System.Drawing.Point(262, 10);
+            this.pnlTabCover.Name = "pnlTabCover";
+            this.pnlTabCover.Size = new System.Drawing.Size(878, 30);
+            this.pnlTabCover.TabIndex = 13;
             // 
-            // pictureBox6
+            // pnlBottomBanner
             // 
-            this.pictureBox6.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox6.Location = new System.Drawing.Point(244, 401);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 7;
-            this.pictureBox6.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(42, 40);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(224, 682);
-            this.panel1.TabIndex = 11;
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(47)))), ((int)(((byte)(56)))));
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button5.Location = new System.Drawing.Point(14, 352);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(197, 63);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Rentals";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(222)))), ((int)(((byte)(251)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(186)))), ((int)(((byte)(230)))));
-            this.button1.Location = new System.Drawing.Point(14, 194);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 63);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Home";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button4.Location = new System.Drawing.Point(14, 431);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(197, 63);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Statistics";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button2.Location = new System.Drawing.Point(14, 273);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 63);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Browse";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, -15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(224, 224);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.panel4.Location = new System.Drawing.Point(1122, 39);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(20, 683);
-            this.panel4.TabIndex = 12;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(45)))), ((int)(((byte)(62)))));
-            this.panel5.Location = new System.Drawing.Point(262, 10);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(878, 30);
-            this.panel5.TabIndex = 13;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.panel6.Location = new System.Drawing.Point(264, 718);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(878, 4);
-            this.panel6.TabIndex = 14;
+            this.pnlBottomBanner.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.pnlBottomBanner.Location = new System.Drawing.Point(264, 718);
+            this.pnlBottomBanner.Name = "pnlBottomBanner";
+            this.pnlBottomBanner.Size = new System.Drawing.Size(878, 4);
+            this.pnlBottomBanner.TabIndex = 14;
             // 
             // tcOptions
             // 
@@ -501,7 +359,7 @@
             // tabHome
             // 
             this.tabHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.tabHome.Controls.Add(this.panel2);
+            this.tabHome.Controls.Add(this.pnlHomeContent);
             this.tabHome.Location = new System.Drawing.Point(4, 22);
             this.tabHome.Name = "tabHome";
             this.tabHome.Padding = new System.Windows.Forms.Padding(3);
@@ -511,7 +369,7 @@
             // 
             // tabBrowse
             // 
-            this.tabBrowse.Controls.Add(this.panel7);
+            this.tabBrowse.Controls.Add(this.pnlBrowseContent);
             this.tabBrowse.Location = new System.Drawing.Point(4, 22);
             this.tabBrowse.Name = "tabBrowse";
             this.tabBrowse.Padding = new System.Windows.Forms.Padding(3);
@@ -520,106 +378,52 @@
             this.tabBrowse.Text = "Browse";
             this.tabBrowse.UseVisualStyleBackColor = true;
             // 
-            // panel7
+            // pnlBrowseContent
             // 
-            this.panel7.AutoScroll = true;
-            this.panel7.AutoScrollMargin = new System.Drawing.Size(0, 40);
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.panel7.Controls.Add(this.pnlSearch);
-            this.panel7.Controls.Add(this.pictureBox14);
-            this.panel7.Controls.Add(this.pictureBox15);
-            this.panel7.Controls.Add(this.pictureBox16);
-            this.panel7.Controls.Add(this.pictureBox17);
-            this.panel7.Controls.Add(this.panel8);
-            this.panel7.Controls.Add(this.label2);
-            this.panel7.Controls.Add(this.pictureBox18);
-            this.panel7.Controls.Add(this.pictureBox19);
-            this.panel7.Controls.Add(this.pictureBox20);
-            this.panel7.Controls.Add(this.pictureBox21);
-            this.panel7.Controls.Add(this.pictureBox22);
-            this.panel7.Controls.Add(this.pictureBox23);
-            this.panel7.Controls.Add(this.pictureBox24);
-            this.panel7.Controls.Add(this.pictureBox25);
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(880, 682);
-            this.panel7.TabIndex = 11;
+            this.pnlBrowseContent.AutoScroll = true;
+            this.pnlBrowseContent.AutoScrollMargin = new System.Drawing.Size(0, 40);
+            this.pnlBrowseContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.pnlBrowseContent.Controls.Add(this.pnlSearchContainer);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov11);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov10);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov8);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov9);
+            this.pnlBrowseContent.Controls.Add(this.panel8);
+            this.pnlBrowseContent.Controls.Add(this.lblBrowseTitle);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov3);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov2);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov7);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov1);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov0);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov6);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov4);
+            this.pnlBrowseContent.Controls.Add(this.pboBrowseMov5);
+            this.pnlBrowseContent.Location = new System.Drawing.Point(0, 0);
+            this.pnlBrowseContent.Name = "pnlBrowseContent";
+            this.pnlBrowseContent.Size = new System.Drawing.Size(880, 682);
+            this.pnlBrowseContent.TabIndex = 11;
             // 
-            // pnlSearch
+            // pnlSearchContainer
             // 
-            this.pnlSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlSearch.Controls.Add(this.textBox1);
-            this.pnlSearch.Controls.Add(this.pictureBox26);
-            this.pnlSearch.Location = new System.Drawing.Point(39, 99);
-            this.pnlSearch.Name = "pnlSearch";
-            this.pnlSearch.Size = new System.Drawing.Size(790, 50);
-            this.pnlSearch.TabIndex = 16;
+            this.pnlSearchContainer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlSearchContainer.Controls.Add(this.txtSearch);
+            this.pnlSearchContainer.Controls.Add(this.pboSearchIcon);
+            this.pnlSearchContainer.Location = new System.Drawing.Point(39, 99);
+            this.pnlSearchContainer.Name = "pnlSearchContainer";
+            this.pnlSearchContainer.Size = new System.Drawing.Size(790, 50);
+            this.pnlSearchContainer.TabIndex = 16;
             // 
-            // textBox1
+            // txtSearch
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.textBox1.Location = new System.Drawing.Point(51, 9);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(723, 32);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Search....";
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox26.Image = global::MovieMania.Properties.Resources.search_interface_symbol;
-            this.pictureBox26.Location = new System.Drawing.Point(11, 11);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(28, 28);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox26.TabIndex = 0;
-            this.pictureBox26.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox14.Location = new System.Drawing.Point(654, 765);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 15;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox15.Location = new System.Drawing.Point(449, 765);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 14;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox16.Location = new System.Drawing.Point(39, 765);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 12;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox17.Location = new System.Drawing.Point(244, 765);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 13;
-            this.pictureBox17.TabStop = false;
+            this.txtSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.txtSearch.Location = new System.Drawing.Point(51, 9);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(723, 32);
+            this.txtSearch.TabIndex = 1;
+            this.txtSearch.Text = "Search....";
             // 
             // panel8
             // 
@@ -628,108 +432,20 @@
             this.panel8.Size = new System.Drawing.Size(860, 40);
             this.panel8.TabIndex = 11;
             // 
-            // label2
+            // lblBrowseTitle
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label2.Location = new System.Drawing.Point(30, 30);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(275, 50);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Browse Movies";
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox18.Location = new System.Drawing.Point(654, 179);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox18.TabIndex = 5;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox19.Location = new System.Drawing.Point(449, 179);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 4;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox20.Location = new System.Drawing.Point(654, 472);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 9;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox21.Location = new System.Drawing.Point(244, 179);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 3;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox22.Location = new System.Drawing.Point(39, 179);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 2;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox23.Location = new System.Drawing.Point(449, 472);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 8;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pictureBox24.Location = new System.Drawing.Point(39, 472);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 6;
-            this.pictureBox24.TabStop = false;
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pictureBox25.Location = new System.Drawing.Point(244, 471);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 7;
-            this.pictureBox25.TabStop = false;
+            this.lblBrowseTitle.AutoSize = true;
+            this.lblBrowseTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBrowseTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblBrowseTitle.Location = new System.Drawing.Point(30, 30);
+            this.lblBrowseTitle.Name = "lblBrowseTitle";
+            this.lblBrowseTitle.Size = new System.Drawing.Size(275, 50);
+            this.lblBrowseTitle.TabIndex = 10;
+            this.lblBrowseTitle.Text = "Browse Movies";
             // 
             // tabRentals
             // 
-            this.tabRentals.Controls.Add(this.panel9);
+            this.tabRentals.Controls.Add(this.pnlRentalContent);
             this.tabRentals.Location = new System.Drawing.Point(4, 22);
             this.tabRentals.Name = "tabRentals";
             this.tabRentals.Size = new System.Drawing.Size(872, 677);
@@ -737,9 +453,643 @@
             this.tabRentals.Text = "Rentals";
             this.tabRentals.UseVisualStyleBackColor = true;
             // 
+            // pnlRentalContent
+            // 
+            this.pnlRentalContent.AutoScroll = true;
+            this.pnlRentalContent.AutoScrollMargin = new System.Drawing.Size(0, 40);
+            this.pnlRentalContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.pnlRentalContent.Controls.Add(this.lblRentalHistoryTitle);
+            this.pnlRentalContent.Controls.Add(this.pnlRentalHistory0);
+            this.pnlRentalContent.Controls.Add(this.pnlRentalHistory1);
+            this.pnlRentalContent.Controls.Add(this.pnlRentalHistory2);
+            this.pnlRentalContent.Controls.Add(this.pnlRentalHistory3);
+            this.pnlRentalContent.Controls.Add(this.lblRentalsTitle);
+            this.pnlRentalContent.Controls.Add(this.pnlCurrentRental0);
+            this.pnlRentalContent.Controls.Add(this.pnlCurrentRental1);
+            this.pnlRentalContent.Controls.Add(this.pnlCurrentRental2);
+            this.pnlRentalContent.Controls.Add(this.pnlCurrentRental3);
+            this.pnlRentalContent.Location = new System.Drawing.Point(0, 0);
+            this.pnlRentalContent.Name = "pnlRentalContent";
+            this.pnlRentalContent.Size = new System.Drawing.Size(880, 682);
+            this.pnlRentalContent.TabIndex = 11;
+            // 
+            // lblRentalHistoryTitle
+            // 
+            this.lblRentalHistoryTitle.AutoSize = true;
+            this.lblRentalHistoryTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryTitle.Location = new System.Drawing.Point(30, 614);
+            this.lblRentalHistoryTitle.Name = "lblRentalHistoryTitle";
+            this.lblRentalHistoryTitle.Size = new System.Drawing.Size(260, 50);
+            this.lblRentalHistoryTitle.TabIndex = 22;
+            this.lblRentalHistoryTitle.Text = "Rental History";
+            // 
+            // pnlRentalHistory0
+            // 
+            this.pnlRentalHistory0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlRentalHistory0.Controls.Add(this.lblRentalHistoryReturnVal0);
+            this.pnlRentalHistory0.Controls.Add(this.lblRentalHistoryReturn0);
+            this.pnlRentalHistory0.Controls.Add(this.lblRentalHistoryDateVal0);
+            this.pnlRentalHistory0.Controls.Add(this.lblRentalHistoryDate0);
+            this.pnlRentalHistory0.Controls.Add(this.btnHistoryRent0);
+            this.pnlRentalHistory0.Controls.Add(this.pboRentalHistory0);
+            this.pnlRentalHistory0.Location = new System.Drawing.Point(39, 693);
+            this.pnlRentalHistory0.Name = "pnlRentalHistory0";
+            this.pnlRentalHistory0.Size = new System.Drawing.Size(175, 440);
+            this.pnlRentalHistory0.TabIndex = 23;
+            // 
+            // lblRentalHistoryReturnVal0
+            // 
+            this.lblRentalHistoryReturnVal0.AutoSize = true;
+            this.lblRentalHistoryReturnVal0.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryReturnVal0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryReturnVal0.Location = new System.Drawing.Point(8, 354);
+            this.lblRentalHistoryReturnVal0.Name = "lblRentalHistoryReturnVal0";
+            this.lblRentalHistoryReturnVal0.Size = new System.Drawing.Size(106, 25);
+            this.lblRentalHistoryReturnVal0.TabIndex = 18;
+            this.lblRentalHistoryReturnVal0.Text = "25/01/2024";
+            // 
+            // lblRentalHistoryReturn0
+            // 
+            this.lblRentalHistoryReturn0.AutoSize = true;
+            this.lblRentalHistoryReturn0.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryReturn0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryReturn0.Location = new System.Drawing.Point(8, 328);
+            this.lblRentalHistoryReturn0.Name = "lblRentalHistoryReturn0";
+            this.lblRentalHistoryReturn0.Size = new System.Drawing.Size(90, 25);
+            this.lblRentalHistoryReturn0.TabIndex = 18;
+            this.lblRentalHistoryReturn0.Text = "Returned";
+            // 
+            // lblRentalHistoryDateVal0
+            // 
+            this.lblRentalHistoryDateVal0.AutoSize = true;
+            this.lblRentalHistoryDateVal0.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryDateVal0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryDateVal0.Location = new System.Drawing.Point(8, 296);
+            this.lblRentalHistoryDateVal0.Name = "lblRentalHistoryDateVal0";
+            this.lblRentalHistoryDateVal0.Size = new System.Drawing.Size(106, 25);
+            this.lblRentalHistoryDateVal0.TabIndex = 18;
+            this.lblRentalHistoryDateVal0.Text = "18/01/2024";
+            // 
+            // lblRentalHistoryDate0
+            // 
+            this.lblRentalHistoryDate0.AutoSize = true;
+            this.lblRentalHistoryDate0.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryDate0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryDate0.Location = new System.Drawing.Point(8, 269);
+            this.lblRentalHistoryDate0.Name = "lblRentalHistoryDate0";
+            this.lblRentalHistoryDate0.Size = new System.Drawing.Size(112, 25);
+            this.lblRentalHistoryDate0.TabIndex = 17;
+            this.lblRentalHistoryDate0.Text = "Rental Date";
+            // 
+            // btnHistoryRent0
+            // 
+            this.btnHistoryRent0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.btnHistoryRent0.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnHistoryRent0.FlatAppearance.BorderSize = 0;
+            this.btnHistoryRent0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnHistoryRent0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHistoryRent0.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistoryRent0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnHistoryRent0.Location = new System.Drawing.Point(13, 388);
+            this.btnHistoryRent0.Name = "btnHistoryRent0";
+            this.btnHistoryRent0.Size = new System.Drawing.Size(149, 40);
+            this.btnHistoryRent0.TabIndex = 2;
+            this.btnHistoryRent0.Text = "Rent Again";
+            this.btnHistoryRent0.UseVisualStyleBackColor = false;
+            // 
+            // pnlRentalHistory1
+            // 
+            this.pnlRentalHistory1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlRentalHistory1.Controls.Add(this.lblRentalHistoryReturnVal1);
+            this.pnlRentalHistory1.Controls.Add(this.lblRentalHistoryReturn1);
+            this.pnlRentalHistory1.Controls.Add(this.lblRentalHistoryDateVal1);
+            this.pnlRentalHistory1.Controls.Add(this.lblRentalHistoryDate1);
+            this.pnlRentalHistory1.Controls.Add(this.btnHistoryRent1);
+            this.pnlRentalHistory1.Controls.Add(this.pboRentalHistory1);
+            this.pnlRentalHistory1.Location = new System.Drawing.Point(244, 693);
+            this.pnlRentalHistory1.Name = "pnlRentalHistory1";
+            this.pnlRentalHistory1.Size = new System.Drawing.Size(175, 440);
+            this.pnlRentalHistory1.TabIndex = 24;
+            // 
+            // lblRentalHistoryReturnVal1
+            // 
+            this.lblRentalHistoryReturnVal1.AutoSize = true;
+            this.lblRentalHistoryReturnVal1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryReturnVal1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryReturnVal1.Location = new System.Drawing.Point(8, 354);
+            this.lblRentalHistoryReturnVal1.Name = "lblRentalHistoryReturnVal1";
+            this.lblRentalHistoryReturnVal1.Size = new System.Drawing.Size(106, 25);
+            this.lblRentalHistoryReturnVal1.TabIndex = 18;
+            this.lblRentalHistoryReturnVal1.Text = "25/04/2021";
+            // 
+            // lblRentalHistoryReturn1
+            // 
+            this.lblRentalHistoryReturn1.AutoSize = true;
+            this.lblRentalHistoryReturn1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryReturn1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryReturn1.Location = new System.Drawing.Point(8, 328);
+            this.lblRentalHistoryReturn1.Name = "lblRentalHistoryReturn1";
+            this.lblRentalHistoryReturn1.Size = new System.Drawing.Size(90, 25);
+            this.lblRentalHistoryReturn1.TabIndex = 18;
+            this.lblRentalHistoryReturn1.Text = "Returned";
+            // 
+            // lblRentalHistoryDateVal1
+            // 
+            this.lblRentalHistoryDateVal1.AutoSize = true;
+            this.lblRentalHistoryDateVal1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryDateVal1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryDateVal1.Location = new System.Drawing.Point(8, 296);
+            this.lblRentalHistoryDateVal1.Name = "lblRentalHistoryDateVal1";
+            this.lblRentalHistoryDateVal1.Size = new System.Drawing.Size(106, 25);
+            this.lblRentalHistoryDateVal1.TabIndex = 18;
+            this.lblRentalHistoryDateVal1.Text = "18/04/2024";
+            // 
+            // lblRentalHistoryDate1
+            // 
+            this.lblRentalHistoryDate1.AutoSize = true;
+            this.lblRentalHistoryDate1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryDate1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryDate1.Location = new System.Drawing.Point(8, 269);
+            this.lblRentalHistoryDate1.Name = "lblRentalHistoryDate1";
+            this.lblRentalHistoryDate1.Size = new System.Drawing.Size(112, 25);
+            this.lblRentalHistoryDate1.TabIndex = 17;
+            this.lblRentalHistoryDate1.Text = "Rental Date";
+            // 
+            // btnHistoryRent1
+            // 
+            this.btnHistoryRent1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.btnHistoryRent1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnHistoryRent1.FlatAppearance.BorderSize = 0;
+            this.btnHistoryRent1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnHistoryRent1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHistoryRent1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistoryRent1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnHistoryRent1.Location = new System.Drawing.Point(13, 388);
+            this.btnHistoryRent1.Name = "btnHistoryRent1";
+            this.btnHistoryRent1.Size = new System.Drawing.Size(149, 40);
+            this.btnHistoryRent1.TabIndex = 2;
+            this.btnHistoryRent1.Text = "Rent Again";
+            this.btnHistoryRent1.UseVisualStyleBackColor = false;
+            // 
+            // pnlRentalHistory2
+            // 
+            this.pnlRentalHistory2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlRentalHistory2.Controls.Add(this.lblRentalHistoryReturnVal2);
+            this.pnlRentalHistory2.Controls.Add(this.lblRentalHistoryReturn2);
+            this.pnlRentalHistory2.Controls.Add(this.lblRentalHistoryDateVal2);
+            this.pnlRentalHistory2.Controls.Add(this.lblRentalHistoryDate2);
+            this.pnlRentalHistory2.Controls.Add(this.btnHistoryRent2);
+            this.pnlRentalHistory2.Controls.Add(this.pboRentalHistory2);
+            this.pnlRentalHistory2.Location = new System.Drawing.Point(449, 693);
+            this.pnlRentalHistory2.Name = "pnlRentalHistory2";
+            this.pnlRentalHistory2.Size = new System.Drawing.Size(175, 440);
+            this.pnlRentalHistory2.TabIndex = 25;
+            // 
+            // lblRentalHistoryReturnVal2
+            // 
+            this.lblRentalHistoryReturnVal2.AutoSize = true;
+            this.lblRentalHistoryReturnVal2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryReturnVal2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryReturnVal2.Location = new System.Drawing.Point(8, 354);
+            this.lblRentalHistoryReturnVal2.Name = "lblRentalHistoryReturnVal2";
+            this.lblRentalHistoryReturnVal2.Size = new System.Drawing.Size(106, 25);
+            this.lblRentalHistoryReturnVal2.TabIndex = 18;
+            this.lblRentalHistoryReturnVal2.Text = "28/04/2021";
+            // 
+            // lblRentalHistoryReturn2
+            // 
+            this.lblRentalHistoryReturn2.AutoSize = true;
+            this.lblRentalHistoryReturn2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryReturn2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryReturn2.Location = new System.Drawing.Point(8, 328);
+            this.lblRentalHistoryReturn2.Name = "lblRentalHistoryReturn2";
+            this.lblRentalHistoryReturn2.Size = new System.Drawing.Size(90, 25);
+            this.lblRentalHistoryReturn2.TabIndex = 18;
+            this.lblRentalHistoryReturn2.Text = "Returned";
+            // 
+            // lblRentalHistoryDateVal2
+            // 
+            this.lblRentalHistoryDateVal2.AutoSize = true;
+            this.lblRentalHistoryDateVal2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryDateVal2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryDateVal2.Location = new System.Drawing.Point(8, 296);
+            this.lblRentalHistoryDateVal2.Name = "lblRentalHistoryDateVal2";
+            this.lblRentalHistoryDateVal2.Size = new System.Drawing.Size(106, 25);
+            this.lblRentalHistoryDateVal2.TabIndex = 18;
+            this.lblRentalHistoryDateVal2.Text = "21/04/2024";
+            // 
+            // lblRentalHistoryDate2
+            // 
+            this.lblRentalHistoryDate2.AutoSize = true;
+            this.lblRentalHistoryDate2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryDate2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryDate2.Location = new System.Drawing.Point(8, 269);
+            this.lblRentalHistoryDate2.Name = "lblRentalHistoryDate2";
+            this.lblRentalHistoryDate2.Size = new System.Drawing.Size(112, 25);
+            this.lblRentalHistoryDate2.TabIndex = 17;
+            this.lblRentalHistoryDate2.Text = "Rental Date";
+            // 
+            // btnHistoryRent2
+            // 
+            this.btnHistoryRent2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.btnHistoryRent2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnHistoryRent2.FlatAppearance.BorderSize = 0;
+            this.btnHistoryRent2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnHistoryRent2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHistoryRent2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistoryRent2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnHistoryRent2.Location = new System.Drawing.Point(13, 388);
+            this.btnHistoryRent2.Name = "btnHistoryRent2";
+            this.btnHistoryRent2.Size = new System.Drawing.Size(149, 40);
+            this.btnHistoryRent2.TabIndex = 2;
+            this.btnHistoryRent2.Text = "Rent Again";
+            this.btnHistoryRent2.UseVisualStyleBackColor = false;
+            // 
+            // pnlRentalHistory3
+            // 
+            this.pnlRentalHistory3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlRentalHistory3.Controls.Add(this.lblRentalHistoryReturnVal3);
+            this.pnlRentalHistory3.Controls.Add(this.lblRentalHistoryReturn3);
+            this.pnlRentalHistory3.Controls.Add(this.lblRentalHistoryDateVal3);
+            this.pnlRentalHistory3.Controls.Add(this.lblRentalHistoryDate3);
+            this.pnlRentalHistory3.Controls.Add(this.btnHistoryRent3);
+            this.pnlRentalHistory3.Controls.Add(this.pboRentalHistory3);
+            this.pnlRentalHistory3.Location = new System.Drawing.Point(654, 693);
+            this.pnlRentalHistory3.Name = "pnlRentalHistory3";
+            this.pnlRentalHistory3.Size = new System.Drawing.Size(175, 440);
+            this.pnlRentalHistory3.TabIndex = 26;
+            // 
+            // lblRentalHistoryReturnVal3
+            // 
+            this.lblRentalHistoryReturnVal3.AutoSize = true;
+            this.lblRentalHistoryReturnVal3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryReturnVal3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryReturnVal3.Location = new System.Drawing.Point(8, 354);
+            this.lblRentalHistoryReturnVal3.Name = "lblRentalHistoryReturnVal3";
+            this.lblRentalHistoryReturnVal3.Size = new System.Drawing.Size(106, 25);
+            this.lblRentalHistoryReturnVal3.TabIndex = 18;
+            this.lblRentalHistoryReturnVal3.Text = "25/04/2021";
+            // 
+            // lblRentalHistoryReturn3
+            // 
+            this.lblRentalHistoryReturn3.AutoSize = true;
+            this.lblRentalHistoryReturn3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryReturn3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryReturn3.Location = new System.Drawing.Point(8, 328);
+            this.lblRentalHistoryReturn3.Name = "lblRentalHistoryReturn3";
+            this.lblRentalHistoryReturn3.Size = new System.Drawing.Size(90, 25);
+            this.lblRentalHistoryReturn3.TabIndex = 18;
+            this.lblRentalHistoryReturn3.Text = "Returned";
+            // 
+            // lblRentalHistoryDateVal3
+            // 
+            this.lblRentalHistoryDateVal3.AutoSize = true;
+            this.lblRentalHistoryDateVal3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryDateVal3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryDateVal3.Location = new System.Drawing.Point(8, 296);
+            this.lblRentalHistoryDateVal3.Name = "lblRentalHistoryDateVal3";
+            this.lblRentalHistoryDateVal3.Size = new System.Drawing.Size(106, 25);
+            this.lblRentalHistoryDateVal3.TabIndex = 18;
+            this.lblRentalHistoryDateVal3.Text = "18/04/2024";
+            // 
+            // lblRentalHistoryDate3
+            // 
+            this.lblRentalHistoryDate3.AutoSize = true;
+            this.lblRentalHistoryDate3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalHistoryDate3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalHistoryDate3.Location = new System.Drawing.Point(8, 269);
+            this.lblRentalHistoryDate3.Name = "lblRentalHistoryDate3";
+            this.lblRentalHistoryDate3.Size = new System.Drawing.Size(112, 25);
+            this.lblRentalHistoryDate3.TabIndex = 17;
+            this.lblRentalHistoryDate3.Text = "Rental Date";
+            // 
+            // btnHistoryRent3
+            // 
+            this.btnHistoryRent3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.btnHistoryRent3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnHistoryRent3.FlatAppearance.BorderSize = 0;
+            this.btnHistoryRent3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnHistoryRent3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHistoryRent3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistoryRent3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnHistoryRent3.Location = new System.Drawing.Point(13, 388);
+            this.btnHistoryRent3.Name = "btnHistoryRent3";
+            this.btnHistoryRent3.Size = new System.Drawing.Size(149, 40);
+            this.btnHistoryRent3.TabIndex = 2;
+            this.btnHistoryRent3.Text = "Rent Again";
+            this.btnHistoryRent3.UseVisualStyleBackColor = false;
+            // 
+            // lblRentalsTitle
+            // 
+            this.lblRentalsTitle.AutoSize = true;
+            this.lblRentalsTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRentalsTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblRentalsTitle.Location = new System.Drawing.Point(30, 30);
+            this.lblRentalsTitle.Name = "lblRentalsTitle";
+            this.lblRentalsTitle.Size = new System.Drawing.Size(282, 50);
+            this.lblRentalsTitle.TabIndex = 10;
+            this.lblRentalsTitle.Text = "Current Rentals";
+            // 
+            // pnlCurrentRental0
+            // 
+            this.pnlCurrentRental0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlCurrentRental0.Controls.Add(this.lblCurrentRetDateVal0);
+            this.pnlCurrentRental0.Controls.Add(this.lblCurrentRetDate0);
+            this.pnlCurrentRental0.Controls.Add(this.lblCurrentRenDateVal0);
+            this.pnlCurrentRental0.Controls.Add(this.lblCurrentRenDate0);
+            this.pnlCurrentRental0.Controls.Add(this.btnCurrentRentalReturn0);
+            this.pnlCurrentRental0.Controls.Add(this.pboCurrentRental0);
+            this.pnlCurrentRental0.Location = new System.Drawing.Point(39, 109);
+            this.pnlCurrentRental0.Name = "pnlCurrentRental0";
+            this.pnlCurrentRental0.Size = new System.Drawing.Size(175, 440);
+            this.pnlCurrentRental0.TabIndex = 16;
+            // 
+            // lblCurrentRetDateVal0
+            // 
+            this.lblCurrentRetDateVal0.AutoSize = true;
+            this.lblCurrentRetDateVal0.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRetDateVal0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRetDateVal0.Location = new System.Drawing.Point(8, 354);
+            this.lblCurrentRetDateVal0.Name = "lblCurrentRetDateVal0";
+            this.lblCurrentRetDateVal0.Size = new System.Drawing.Size(106, 25);
+            this.lblCurrentRetDateVal0.TabIndex = 18;
+            this.lblCurrentRetDateVal0.Text = "28/04/2024";
+            // 
+            // lblCurrentRetDate0
+            // 
+            this.lblCurrentRetDate0.AutoSize = true;
+            this.lblCurrentRetDate0.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRetDate0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRetDate0.Location = new System.Drawing.Point(8, 328);
+            this.lblCurrentRetDate0.Name = "lblCurrentRetDate0";
+            this.lblCurrentRetDate0.Size = new System.Drawing.Size(115, 25);
+            this.lblCurrentRetDate0.TabIndex = 18;
+            this.lblCurrentRetDate0.Text = "Return Date";
+            // 
+            // lblCurrentRenDateVal0
+            // 
+            this.lblCurrentRenDateVal0.AutoSize = true;
+            this.lblCurrentRenDateVal0.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRenDateVal0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRenDateVal0.Location = new System.Drawing.Point(8, 296);
+            this.lblCurrentRenDateVal0.Name = "lblCurrentRenDateVal0";
+            this.lblCurrentRenDateVal0.Size = new System.Drawing.Size(106, 25);
+            this.lblCurrentRenDateVal0.TabIndex = 18;
+            this.lblCurrentRenDateVal0.Text = "21/04/2024";
+            // 
+            // lblCurrentRenDate0
+            // 
+            this.lblCurrentRenDate0.AutoSize = true;
+            this.lblCurrentRenDate0.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRenDate0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRenDate0.Location = new System.Drawing.Point(8, 269);
+            this.lblCurrentRenDate0.Name = "lblCurrentRenDate0";
+            this.lblCurrentRenDate0.Size = new System.Drawing.Size(112, 25);
+            this.lblCurrentRenDate0.TabIndex = 17;
+            this.lblCurrentRenDate0.Text = "Rental Date";
+            // 
+            // btnCurrentRentalReturn0
+            // 
+            this.btnCurrentRentalReturn0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.btnCurrentRentalReturn0.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnCurrentRentalReturn0.FlatAppearance.BorderSize = 0;
+            this.btnCurrentRentalReturn0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnCurrentRentalReturn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCurrentRentalReturn0.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCurrentRentalReturn0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnCurrentRentalReturn0.Location = new System.Drawing.Point(13, 388);
+            this.btnCurrentRentalReturn0.Name = "btnCurrentRentalReturn0";
+            this.btnCurrentRentalReturn0.Size = new System.Drawing.Size(149, 40);
+            this.btnCurrentRentalReturn0.TabIndex = 2;
+            this.btnCurrentRentalReturn0.Text = "Return Movie";
+            this.btnCurrentRentalReturn0.UseVisualStyleBackColor = false;
+            // 
+            // pnlCurrentRental1
+            // 
+            this.pnlCurrentRental1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlCurrentRental1.Controls.Add(this.lblCurrentRetDateVal1);
+            this.pnlCurrentRental1.Controls.Add(this.lblCurrentRetDate1);
+            this.pnlCurrentRental1.Controls.Add(this.lblCurrentRenDateVal1);
+            this.pnlCurrentRental1.Controls.Add(this.lblCurrentRenDate1);
+            this.pnlCurrentRental1.Controls.Add(this.btnCurrentRentalReturn1);
+            this.pnlCurrentRental1.Controls.Add(this.pboCurrentRental1);
+            this.pnlCurrentRental1.Location = new System.Drawing.Point(244, 109);
+            this.pnlCurrentRental1.Name = "pnlCurrentRental1";
+            this.pnlCurrentRental1.Size = new System.Drawing.Size(175, 440);
+            this.pnlCurrentRental1.TabIndex = 19;
+            // 
+            // lblCurrentRetDateVal1
+            // 
+            this.lblCurrentRetDateVal1.AutoSize = true;
+            this.lblCurrentRetDateVal1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRetDateVal1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRetDateVal1.Location = new System.Drawing.Point(8, 354);
+            this.lblCurrentRetDateVal1.Name = "lblCurrentRetDateVal1";
+            this.lblCurrentRetDateVal1.Size = new System.Drawing.Size(106, 25);
+            this.lblCurrentRetDateVal1.TabIndex = 18;
+            this.lblCurrentRetDateVal1.Text = "25/04/2024";
+            // 
+            // lblCurrentRetDate1
+            // 
+            this.lblCurrentRetDate1.AutoSize = true;
+            this.lblCurrentRetDate1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRetDate1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRetDate1.Location = new System.Drawing.Point(8, 328);
+            this.lblCurrentRetDate1.Name = "lblCurrentRetDate1";
+            this.lblCurrentRetDate1.Size = new System.Drawing.Size(115, 25);
+            this.lblCurrentRetDate1.TabIndex = 18;
+            this.lblCurrentRetDate1.Text = "Return Date";
+            // 
+            // lblCurrentRenDateVal1
+            // 
+            this.lblCurrentRenDateVal1.AutoSize = true;
+            this.lblCurrentRenDateVal1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRenDateVal1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRenDateVal1.Location = new System.Drawing.Point(8, 296);
+            this.lblCurrentRenDateVal1.Name = "lblCurrentRenDateVal1";
+            this.lblCurrentRenDateVal1.Size = new System.Drawing.Size(106, 25);
+            this.lblCurrentRenDateVal1.TabIndex = 18;
+            this.lblCurrentRenDateVal1.Text = "18/04/2024";
+            // 
+            // lblCurrentRenDate1
+            // 
+            this.lblCurrentRenDate1.AutoSize = true;
+            this.lblCurrentRenDate1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRenDate1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRenDate1.Location = new System.Drawing.Point(8, 269);
+            this.lblCurrentRenDate1.Name = "lblCurrentRenDate1";
+            this.lblCurrentRenDate1.Size = new System.Drawing.Size(112, 25);
+            this.lblCurrentRenDate1.TabIndex = 17;
+            this.lblCurrentRenDate1.Text = "Rental Date";
+            // 
+            // btnCurrentRentalReturn1
+            // 
+            this.btnCurrentRentalReturn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.btnCurrentRentalReturn1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnCurrentRentalReturn1.FlatAppearance.BorderSize = 0;
+            this.btnCurrentRentalReturn1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnCurrentRentalReturn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCurrentRentalReturn1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCurrentRentalReturn1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnCurrentRentalReturn1.Location = new System.Drawing.Point(13, 388);
+            this.btnCurrentRentalReturn1.Name = "btnCurrentRentalReturn1";
+            this.btnCurrentRentalReturn1.Size = new System.Drawing.Size(149, 40);
+            this.btnCurrentRentalReturn1.TabIndex = 2;
+            this.btnCurrentRentalReturn1.Text = "Return Movie";
+            this.btnCurrentRentalReturn1.UseVisualStyleBackColor = false;
+            // 
+            // pnlCurrentRental2
+            // 
+            this.pnlCurrentRental2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlCurrentRental2.Controls.Add(this.lblCurrentRetDateVal2);
+            this.pnlCurrentRental2.Controls.Add(this.lblCurrentRetDate2);
+            this.pnlCurrentRental2.Controls.Add(this.lblCurrentRenDateVal2);
+            this.pnlCurrentRental2.Controls.Add(this.lblCurrentRenDate2);
+            this.pnlCurrentRental2.Controls.Add(this.btnCurrentRentalReturn2);
+            this.pnlCurrentRental2.Controls.Add(this.pboCurrentRental2);
+            this.pnlCurrentRental2.Location = new System.Drawing.Point(449, 109);
+            this.pnlCurrentRental2.Name = "pnlCurrentRental2";
+            this.pnlCurrentRental2.Size = new System.Drawing.Size(175, 440);
+            this.pnlCurrentRental2.TabIndex = 20;
+            // 
+            // lblCurrentRetDateVal2
+            // 
+            this.lblCurrentRetDateVal2.AutoSize = true;
+            this.lblCurrentRetDateVal2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRetDateVal2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRetDateVal2.Location = new System.Drawing.Point(8, 354);
+            this.lblCurrentRetDateVal2.Name = "lblCurrentRetDateVal2";
+            this.lblCurrentRetDateVal2.Size = new System.Drawing.Size(106, 25);
+            this.lblCurrentRetDateVal2.TabIndex = 18;
+            this.lblCurrentRetDateVal2.Text = "28/04/2024";
+            // 
+            // lblCurrentRetDate2
+            // 
+            this.lblCurrentRetDate2.AutoSize = true;
+            this.lblCurrentRetDate2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRetDate2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRetDate2.Location = new System.Drawing.Point(8, 328);
+            this.lblCurrentRetDate2.Name = "lblCurrentRetDate2";
+            this.lblCurrentRetDate2.Size = new System.Drawing.Size(115, 25);
+            this.lblCurrentRetDate2.TabIndex = 18;
+            this.lblCurrentRetDate2.Text = "Return Date";
+            // 
+            // lblCurrentRenDateVal2
+            // 
+            this.lblCurrentRenDateVal2.AutoSize = true;
+            this.lblCurrentRenDateVal2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRenDateVal2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRenDateVal2.Location = new System.Drawing.Point(8, 296);
+            this.lblCurrentRenDateVal2.Name = "lblCurrentRenDateVal2";
+            this.lblCurrentRenDateVal2.Size = new System.Drawing.Size(106, 25);
+            this.lblCurrentRenDateVal2.TabIndex = 18;
+            this.lblCurrentRenDateVal2.Text = "21/04/2024";
+            // 
+            // lblCurrentRenDate2
+            // 
+            this.lblCurrentRenDate2.AutoSize = true;
+            this.lblCurrentRenDate2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRenDate2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRenDate2.Location = new System.Drawing.Point(8, 269);
+            this.lblCurrentRenDate2.Name = "lblCurrentRenDate2";
+            this.lblCurrentRenDate2.Size = new System.Drawing.Size(112, 25);
+            this.lblCurrentRenDate2.TabIndex = 17;
+            this.lblCurrentRenDate2.Text = "Rental Date";
+            // 
+            // btnCurrentRentalReturn2
+            // 
+            this.btnCurrentRentalReturn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.btnCurrentRentalReturn2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnCurrentRentalReturn2.FlatAppearance.BorderSize = 0;
+            this.btnCurrentRentalReturn2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnCurrentRentalReturn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCurrentRentalReturn2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCurrentRentalReturn2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnCurrentRentalReturn2.Location = new System.Drawing.Point(13, 388);
+            this.btnCurrentRentalReturn2.Name = "btnCurrentRentalReturn2";
+            this.btnCurrentRentalReturn2.Size = new System.Drawing.Size(149, 40);
+            this.btnCurrentRentalReturn2.TabIndex = 2;
+            this.btnCurrentRentalReturn2.Text = "Return Movie";
+            this.btnCurrentRentalReturn2.UseVisualStyleBackColor = false;
+            // 
+            // pnlCurrentRental3
+            // 
+            this.pnlCurrentRental3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlCurrentRental3.Controls.Add(this.lblCurrentRetDateVal3);
+            this.pnlCurrentRental3.Controls.Add(this.lblCurrentRetDate3);
+            this.pnlCurrentRental3.Controls.Add(this.lblCurrentRenDateVal3);
+            this.pnlCurrentRental3.Controls.Add(this.lblCurrentRenDate3);
+            this.pnlCurrentRental3.Controls.Add(this.btnCurrentRentalReturn3);
+            this.pnlCurrentRental3.Controls.Add(this.pboCurrentRental3);
+            this.pnlCurrentRental3.Location = new System.Drawing.Point(654, 109);
+            this.pnlCurrentRental3.Name = "pnlCurrentRental3";
+            this.pnlCurrentRental3.Size = new System.Drawing.Size(175, 440);
+            this.pnlCurrentRental3.TabIndex = 21;
+            // 
+            // lblCurrentRetDateVal3
+            // 
+            this.lblCurrentRetDateVal3.AutoSize = true;
+            this.lblCurrentRetDateVal3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRetDateVal3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRetDateVal3.Location = new System.Drawing.Point(8, 354);
+            this.lblCurrentRetDateVal3.Name = "lblCurrentRetDateVal3";
+            this.lblCurrentRetDateVal3.Size = new System.Drawing.Size(106, 25);
+            this.lblCurrentRetDateVal3.TabIndex = 18;
+            this.lblCurrentRetDateVal3.Text = "25/04/2024";
+            // 
+            // lblCurrentRetDate3
+            // 
+            this.lblCurrentRetDate3.AutoSize = true;
+            this.lblCurrentRetDate3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRetDate3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRetDate3.Location = new System.Drawing.Point(8, 328);
+            this.lblCurrentRetDate3.Name = "lblCurrentRetDate3";
+            this.lblCurrentRetDate3.Size = new System.Drawing.Size(115, 25);
+            this.lblCurrentRetDate3.TabIndex = 18;
+            this.lblCurrentRetDate3.Text = "Return Date";
+            // 
+            // lblCurrentRenDateVal3
+            // 
+            this.lblCurrentRenDateVal3.AutoSize = true;
+            this.lblCurrentRenDateVal3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRenDateVal3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRenDateVal3.Location = new System.Drawing.Point(8, 296);
+            this.lblCurrentRenDateVal3.Name = "lblCurrentRenDateVal3";
+            this.lblCurrentRenDateVal3.Size = new System.Drawing.Size(106, 25);
+            this.lblCurrentRenDateVal3.TabIndex = 18;
+            this.lblCurrentRenDateVal3.Text = "18/04/2024";
+            // 
+            // lblCurrentRenDate3
+            // 
+            this.lblCurrentRenDate3.AutoSize = true;
+            this.lblCurrentRenDate3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentRenDate3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentRenDate3.Location = new System.Drawing.Point(8, 269);
+            this.lblCurrentRenDate3.Name = "lblCurrentRenDate3";
+            this.lblCurrentRenDate3.Size = new System.Drawing.Size(112, 25);
+            this.lblCurrentRenDate3.TabIndex = 17;
+            this.lblCurrentRenDate3.Text = "Rental Date";
+            // 
+            // btnCurrentRentalReturn3
+            // 
+            this.btnCurrentRentalReturn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.btnCurrentRentalReturn3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnCurrentRentalReturn3.FlatAppearance.BorderSize = 0;
+            this.btnCurrentRentalReturn3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnCurrentRentalReturn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCurrentRentalReturn3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCurrentRentalReturn3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnCurrentRentalReturn3.Location = new System.Drawing.Point(13, 388);
+            this.btnCurrentRentalReturn3.Name = "btnCurrentRentalReturn3";
+            this.btnCurrentRentalReturn3.Size = new System.Drawing.Size(149, 40);
+            this.btnCurrentRentalReturn3.TabIndex = 2;
+            this.btnCurrentRentalReturn3.Text = "Return Movie";
+            this.btnCurrentRentalReturn3.UseVisualStyleBackColor = false;
+            // 
             // tabStats
             // 
-            this.tabStats.Controls.Add(this.panel19);
+            this.tabStats.Controls.Add(this.pblStatisticsContent);
             this.tabStats.Location = new System.Drawing.Point(4, 22);
             this.tabStats.Name = "tabStats";
             this.tabStats.Size = new System.Drawing.Size(872, 677);
@@ -747,843 +1097,493 @@
             this.tabStats.Text = "Statistics";
             this.tabStats.UseVisualStyleBackColor = true;
             // 
-            // panel9
+            // pblStatisticsContent
             // 
-            this.panel9.AutoScroll = true;
-            this.panel9.AutoScrollMargin = new System.Drawing.Size(0, 40);
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.panel9.Controls.Add(this.label20);
-            this.panel9.Controls.Add(this.panel15);
-            this.panel9.Controls.Add(this.panel16);
-            this.panel9.Controls.Add(this.panel17);
-            this.panel9.Controls.Add(this.panel18);
-            this.panel9.Controls.Add(this.label3);
-            this.panel9.Controls.Add(this.panel11);
-            this.panel9.Controls.Add(this.panel12);
-            this.panel9.Controls.Add(this.panel13);
-            this.panel9.Controls.Add(this.panel14);
-            this.panel9.Location = new System.Drawing.Point(-4, -3);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(880, 682);
-            this.panel9.TabIndex = 11;
+            this.pblStatisticsContent.AutoScroll = true;
+            this.pblStatisticsContent.AutoScrollMargin = new System.Drawing.Size(0, 40);
+            this.pblStatisticsContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.pblStatisticsContent.Controls.Add(this.pnlGraphs);
+            this.pblStatisticsContent.Controls.Add(this.pnlCurrentMembers);
+            this.pblStatisticsContent.Controls.Add(this.lblStatisticsTitle);
+            this.pblStatisticsContent.Controls.Add(this.pnlMoviesRented);
+            this.pblStatisticsContent.Location = new System.Drawing.Point(0, 0);
+            this.pblStatisticsContent.Name = "pblStatisticsContent";
+            this.pblStatisticsContent.Size = new System.Drawing.Size(880, 682);
+            this.pblStatisticsContent.TabIndex = 12;
             // 
-            // label3
+            // pnlGraphs
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label3.Location = new System.Drawing.Point(30, 30);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(282, 50);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Current Rentals";
+            this.pnlGraphs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlGraphs.Controls.Add(this.pboGraphs);
+            this.pnlGraphs.Location = new System.Drawing.Point(40, 309);
+            this.pnlGraphs.Name = "pnlGraphs";
+            this.pnlGraphs.Size = new System.Drawing.Size(792, 287);
+            this.pnlGraphs.TabIndex = 18;
             // 
-            // pictureBox35
+            // pnlCurrentMembers
             // 
-            this.pictureBox35.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+            this.pnlCurrentMembers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlCurrentMembers.Controls.Add(this.lblCurrentMembersVal);
+            this.pnlCurrentMembers.Controls.Add(this.lblCurrentMembers);
+            this.pnlCurrentMembers.Location = new System.Drawing.Point(451, 109);
+            this.pnlCurrentMembers.Name = "pnlCurrentMembers";
+            this.pnlCurrentMembers.Size = new System.Drawing.Size(381, 170);
+            this.pnlCurrentMembers.TabIndex = 18;
+            // 
+            // lblCurrentMembersVal
+            // 
+            this.lblCurrentMembersVal.AutoSize = true;
+            this.lblCurrentMembersVal.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentMembersVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentMembersVal.Location = new System.Drawing.Point(23, 25);
+            this.lblCurrentMembersVal.Name = "lblCurrentMembersVal";
+            this.lblCurrentMembersVal.Size = new System.Drawing.Size(135, 86);
+            this.lblCurrentMembersVal.TabIndex = 20;
+            this.lblCurrentMembersVal.Text = "120";
+            // 
+            // lblCurrentMembers
+            // 
+            this.lblCurrentMembers.AutoSize = true;
+            this.lblCurrentMembers.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentMembers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblCurrentMembers.Location = new System.Drawing.Point(40, 111);
+            this.lblCurrentMembers.Name = "lblCurrentMembers";
+            this.lblCurrentMembers.Size = new System.Drawing.Size(181, 30);
+            this.lblCurrentMembers.TabIndex = 19;
+            this.lblCurrentMembers.Text = "Current Members";
+            // 
+            // lblStatisticsTitle
+            // 
+            this.lblStatisticsTitle.AutoSize = true;
+            this.lblStatisticsTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatisticsTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblStatisticsTitle.Location = new System.Drawing.Point(30, 30);
+            this.lblStatisticsTitle.Name = "lblStatisticsTitle";
+            this.lblStatisticsTitle.Size = new System.Drawing.Size(168, 50);
+            this.lblStatisticsTitle.TabIndex = 10;
+            this.lblStatisticsTitle.Text = "Statistics";
+            // 
+            // pnlMoviesRented
+            // 
+            this.pnlMoviesRented.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
+            this.pnlMoviesRented.Controls.Add(this.lblMoviesRentedVal);
+            this.pnlMoviesRented.Controls.Add(this.lblMoviesRented);
+            this.pnlMoviesRented.Location = new System.Drawing.Point(40, 109);
+            this.pnlMoviesRented.Name = "pnlMoviesRented";
+            this.pnlMoviesRented.Size = new System.Drawing.Size(381, 170);
+            this.pnlMoviesRented.TabIndex = 16;
+            // 
+            // lblMoviesRentedVal
+            // 
+            this.lblMoviesRentedVal.AutoSize = true;
+            this.lblMoviesRentedVal.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMoviesRentedVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblMoviesRentedVal.Location = new System.Drawing.Point(23, 25);
+            this.lblMoviesRentedVal.Name = "lblMoviesRentedVal";
+            this.lblMoviesRentedVal.Size = new System.Drawing.Size(135, 86);
+            this.lblMoviesRentedVal.TabIndex = 18;
+            this.lblMoviesRentedVal.Text = "120";
+            // 
+            // lblMoviesRented
+            // 
+            this.lblMoviesRented.AutoSize = true;
+            this.lblMoviesRented.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMoviesRented.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
+            this.lblMoviesRented.Location = new System.Drawing.Point(40, 111);
+            this.lblMoviesRented.Name = "lblMoviesRented";
+            this.lblMoviesRented.Size = new System.Drawing.Size(154, 30);
+            this.lblMoviesRented.TabIndex = 17;
+            this.lblMoviesRented.Text = "Movies Rented";
+            // 
+            // pnlTopBanner
+            // 
+            this.pnlTopBanner.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.pnlTopBanner.Location = new System.Drawing.Point(264, 40);
+            this.pnlTopBanner.Name = "pnlTopBanner";
+            this.pnlTopBanner.Size = new System.Drawing.Size(878, 40);
+            this.pnlTopBanner.TabIndex = 16;
+            // 
+            // pboLogo
+            // 
+            this.pboLogo.Image = ((System.Drawing.Image)(resources.GetObject("pboLogo.Image")));
+            this.pboLogo.Location = new System.Drawing.Point(0, -15);
+            this.pboLogo.Name = "pboLogo";
+            this.pboLogo.Size = new System.Drawing.Size(224, 224);
+            this.pboLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboLogo.TabIndex = 6;
+            this.pboLogo.TabStop = false;
+            // 
+            // pboMov11
+            // 
+            this.pboMov11.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
     "pg";
-            this.pictureBox35.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox35.TabIndex = 2;
-            this.pictureBox35.TabStop = false;
+            this.pboMov11.Location = new System.Drawing.Point(654, 695);
+            this.pboMov11.Name = "pboMov11";
+            this.pboMov11.Size = new System.Drawing.Size(175, 263);
+            this.pboMov11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov11.TabIndex = 15;
+            this.pboMov11.TabStop = false;
             // 
-            // panel11
+            // pboMov10
             // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel11.Controls.Add(this.label7);
-            this.panel11.Controls.Add(this.label6);
-            this.panel11.Controls.Add(this.label5);
-            this.panel11.Controls.Add(this.label4);
-            this.panel11.Controls.Add(this.button3);
-            this.panel11.Controls.Add(this.pictureBox35);
-            this.panel11.Location = new System.Drawing.Point(39, 109);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(175, 440);
-            this.panel11.TabIndex = 16;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button3.Location = new System.Drawing.Point(13, 388);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(149, 40);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Return Movie";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label4.Location = new System.Drawing.Point(8, 269);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(112, 25);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Rental Date";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label5.Location = new System.Drawing.Point(8, 298);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(106, 25);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "21/04/2024";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label6.Location = new System.Drawing.Point(8, 329);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(115, 25);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Return Date";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label7.Location = new System.Drawing.Point(8, 355);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(106, 25);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "28/04/2024";
-            // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel12.Controls.Add(this.label8);
-            this.panel12.Controls.Add(this.label9);
-            this.panel12.Controls.Add(this.label10);
-            this.panel12.Controls.Add(this.label11);
-            this.panel12.Controls.Add(this.button6);
-            this.panel12.Controls.Add(this.pictureBox33);
-            this.panel12.Location = new System.Drawing.Point(244, 109);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(175, 440);
-            this.panel12.TabIndex = 19;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label8.Location = new System.Drawing.Point(8, 355);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 25);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "25/04/2024";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label9.Location = new System.Drawing.Point(8, 329);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(115, 25);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Return Date";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label10.Location = new System.Drawing.Point(8, 298);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(106, 25);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "18/04/2024";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label11.Location = new System.Drawing.Point(8, 269);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(112, 25);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "Rental Date";
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button6.Location = new System.Drawing.Point(13, 388);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(149, 40);
-            this.button6.TabIndex = 2;
-            this.button6.Text = "Return Movie";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox33
-            // 
-            this.pictureBox33.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+            this.pboMov10.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
     "pg";
-            this.pictureBox33.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox33.TabIndex = 2;
-            this.pictureBox33.TabStop = false;
+            this.pboMov10.Location = new System.Drawing.Point(449, 695);
+            this.pboMov10.Name = "pboMov10";
+            this.pboMov10.Size = new System.Drawing.Size(175, 263);
+            this.pboMov10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov10.TabIndex = 14;
+            this.pboMov10.TabStop = false;
             // 
-            // panel13
+            // pboMov8
             // 
-            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel13.Controls.Add(this.label12);
-            this.panel13.Controls.Add(this.label13);
-            this.panel13.Controls.Add(this.label14);
-            this.panel13.Controls.Add(this.label15);
-            this.panel13.Controls.Add(this.button7);
-            this.panel13.Controls.Add(this.pictureBox34);
-            this.panel13.Location = new System.Drawing.Point(449, 109);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(175, 440);
-            this.panel13.TabIndex = 20;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label12.Location = new System.Drawing.Point(8, 355);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(106, 25);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "28/04/2024";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label13.Location = new System.Drawing.Point(8, 329);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(115, 25);
-            this.label13.TabIndex = 18;
-            this.label13.Text = "Return Date";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label14.Location = new System.Drawing.Point(8, 298);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(106, 25);
-            this.label14.TabIndex = 18;
-            this.label14.Text = "21/04/2024";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label15.Location = new System.Drawing.Point(8, 269);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(112, 25);
-            this.label15.TabIndex = 17;
-            this.label15.Text = "Rental Date";
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button7.Location = new System.Drawing.Point(13, 388);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(149, 40);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "Return Movie";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox34
-            // 
-            this.pictureBox34.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+            this.pboMov8.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
     "pg";
-            this.pictureBox34.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox34.TabIndex = 2;
-            this.pictureBox34.TabStop = false;
+            this.pboMov8.Location = new System.Drawing.Point(39, 695);
+            this.pboMov8.Name = "pboMov8";
+            this.pboMov8.Size = new System.Drawing.Size(175, 263);
+            this.pboMov8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov8.TabIndex = 12;
+            this.pboMov8.TabStop = false;
             // 
-            // panel14
+            // pboMov9
             // 
-            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel14.Controls.Add(this.label16);
-            this.panel14.Controls.Add(this.label17);
-            this.panel14.Controls.Add(this.label18);
-            this.panel14.Controls.Add(this.label19);
-            this.panel14.Controls.Add(this.button8);
-            this.panel14.Controls.Add(this.pictureBox36);
-            this.panel14.Location = new System.Drawing.Point(654, 109);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(175, 440);
-            this.panel14.TabIndex = 21;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label16.Location = new System.Drawing.Point(8, 355);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(106, 25);
-            this.label16.TabIndex = 18;
-            this.label16.Text = "25/04/2024";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label17.Location = new System.Drawing.Point(8, 329);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(115, 25);
-            this.label17.TabIndex = 18;
-            this.label17.Text = "Return Date";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label18.Location = new System.Drawing.Point(8, 298);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(106, 25);
-            this.label18.TabIndex = 18;
-            this.label18.Text = "18/04/2024";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label19.Location = new System.Drawing.Point(8, 269);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(112, 25);
-            this.label19.TabIndex = 17;
-            this.label19.Text = "Rental Date";
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button8.Location = new System.Drawing.Point(13, 388);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(149, 40);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Return Movie";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox36
-            // 
-            this.pictureBox36.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+            this.pboMov9.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
     "pg";
-            this.pictureBox36.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox36.TabIndex = 2;
-            this.pictureBox36.TabStop = false;
+            this.pboMov9.Location = new System.Drawing.Point(244, 695);
+            this.pboMov9.Name = "pboMov9";
+            this.pboMov9.Size = new System.Drawing.Size(175, 263);
+            this.pboMov9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov9.TabIndex = 13;
+            this.pboMov9.TabStop = false;
             // 
-            // label20
+            // pboMov3
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label20.Location = new System.Drawing.Point(30, 614);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(260, 50);
-            this.label20.TabIndex = 22;
-            this.label20.Text = "Rental History";
-            // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel15.Controls.Add(this.label21);
-            this.panel15.Controls.Add(this.label22);
-            this.panel15.Controls.Add(this.label23);
-            this.panel15.Controls.Add(this.label24);
-            this.panel15.Controls.Add(this.button9);
-            this.panel15.Controls.Add(this.pictureBox31);
-            this.panel15.Location = new System.Drawing.Point(39, 693);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(175, 440);
-            this.panel15.TabIndex = 23;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label21.Location = new System.Drawing.Point(8, 355);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(106, 25);
-            this.label21.TabIndex = 18;
-            this.label21.Text = "25/01/2024";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label22.Location = new System.Drawing.Point(8, 329);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(90, 25);
-            this.label22.TabIndex = 18;
-            this.label22.Text = "Returned";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label23.Location = new System.Drawing.Point(8, 298);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(106, 25);
-            this.label23.TabIndex = 18;
-            this.label23.Text = "18/01/2024";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label24.Location = new System.Drawing.Point(8, 269);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(112, 25);
-            this.label24.TabIndex = 17;
-            this.label24.Text = "Rental Date";
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button9.Location = new System.Drawing.Point(13, 388);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(149, 40);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "Rent Again";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox31.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+            this.pboMov3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
     "pg";
-            this.pictureBox31.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox31.TabIndex = 2;
-            this.pictureBox31.TabStop = false;
+            this.pboMov3.Location = new System.Drawing.Point(654, 109);
+            this.pboMov3.Name = "pboMov3";
+            this.pboMov3.Size = new System.Drawing.Size(175, 263);
+            this.pboMov3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov3.TabIndex = 5;
+            this.pboMov3.TabStop = false;
             // 
-            // panel16
+            // pboMov2
             // 
-            this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel16.Controls.Add(this.label25);
-            this.panel16.Controls.Add(this.label26);
-            this.panel16.Controls.Add(this.label27);
-            this.panel16.Controls.Add(this.label28);
-            this.panel16.Controls.Add(this.button10);
-            this.panel16.Controls.Add(this.pictureBox32);
-            this.panel16.Location = new System.Drawing.Point(244, 693);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(175, 440);
-            this.panel16.TabIndex = 24;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label25.Location = new System.Drawing.Point(8, 355);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(106, 25);
-            this.label25.TabIndex = 18;
-            this.label25.Text = "25/04/2021";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label26.Location = new System.Drawing.Point(8, 329);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(90, 25);
-            this.label26.TabIndex = 18;
-            this.label26.Text = "Returned";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label27.Location = new System.Drawing.Point(8, 298);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(106, 25);
-            this.label27.TabIndex = 18;
-            this.label27.Text = "18/04/2024";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label28.Location = new System.Drawing.Point(8, 269);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(112, 25);
-            this.label28.TabIndex = 17;
-            this.label28.Text = "Rental Date";
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button10.Location = new System.Drawing.Point(13, 388);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(149, 40);
-            this.button10.TabIndex = 2;
-            this.button10.Text = "Rent Again";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+            this.pboMov2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
     "pg";
-            this.pictureBox32.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox32.TabIndex = 2;
-            this.pictureBox32.TabStop = false;
+            this.pboMov2.Location = new System.Drawing.Point(449, 109);
+            this.pboMov2.Name = "pboMov2";
+            this.pboMov2.Size = new System.Drawing.Size(175, 263);
+            this.pboMov2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov2.TabIndex = 4;
+            this.pboMov2.TabStop = false;
             // 
-            // panel17
+            // pboMov7
             // 
-            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel17.Controls.Add(this.label29);
-            this.panel17.Controls.Add(this.label30);
-            this.panel17.Controls.Add(this.label31);
-            this.panel17.Controls.Add(this.label32);
-            this.panel17.Controls.Add(this.button11);
-            this.panel17.Controls.Add(this.pictureBox37);
-            this.panel17.Location = new System.Drawing.Point(449, 693);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(175, 440);
-            this.panel17.TabIndex = 25;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label29.Location = new System.Drawing.Point(8, 355);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(106, 25);
-            this.label29.TabIndex = 18;
-            this.label29.Text = "28/04/2021";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label30.Location = new System.Drawing.Point(8, 329);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(90, 25);
-            this.label30.TabIndex = 18;
-            this.label30.Text = "Returned";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label31.Location = new System.Drawing.Point(8, 298);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(106, 25);
-            this.label31.TabIndex = 18;
-            this.label31.Text = "21/04/2024";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label32.Location = new System.Drawing.Point(8, 269);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(112, 25);
-            this.label32.TabIndex = 17;
-            this.label32.Text = "Rental Date";
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button11.Location = new System.Drawing.Point(13, 388);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(149, 40);
-            this.button11.TabIndex = 2;
-            this.button11.Text = "Rent Again";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox37
-            // 
-            this.pictureBox37.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+            this.pboMov7.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
     "pg";
-            this.pictureBox37.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox37.TabIndex = 2;
-            this.pictureBox37.TabStop = false;
+            this.pboMov7.Location = new System.Drawing.Point(654, 402);
+            this.pboMov7.Name = "pboMov7";
+            this.pboMov7.Size = new System.Drawing.Size(175, 263);
+            this.pboMov7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov7.TabIndex = 9;
+            this.pboMov7.TabStop = false;
             // 
-            // panel18
+            // pboMov1
             // 
-            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel18.Controls.Add(this.label33);
-            this.panel18.Controls.Add(this.label34);
-            this.panel18.Controls.Add(this.label35);
-            this.panel18.Controls.Add(this.label36);
-            this.panel18.Controls.Add(this.button12);
-            this.panel18.Controls.Add(this.pictureBox38);
-            this.panel18.Location = new System.Drawing.Point(654, 693);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(175, 440);
-            this.panel18.TabIndex = 26;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label33.Location = new System.Drawing.Point(8, 355);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(106, 25);
-            this.label33.TabIndex = 18;
-            this.label33.Text = "25/04/2021";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label34.Location = new System.Drawing.Point(8, 329);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(90, 25);
-            this.label34.TabIndex = 18;
-            this.label34.Text = "Returned";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label35.Location = new System.Drawing.Point(8, 298);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(106, 25);
-            this.label35.TabIndex = 18;
-            this.label35.Text = "18/04/2024";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label36.Location = new System.Drawing.Point(8, 269);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(112, 25);
-            this.label36.TabIndex = 17;
-            this.label36.Text = "Rental Date";
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button12.Location = new System.Drawing.Point(13, 388);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(149, 40);
-            this.button12.TabIndex = 2;
-            this.button12.Text = "Rent Again";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox38
-            // 
-            this.pictureBox38.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+            this.pboMov1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
     "pg";
-            this.pictureBox38.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(175, 263);
-            this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox38.TabIndex = 2;
-            this.pictureBox38.TabStop = false;
+            this.pboMov1.Location = new System.Drawing.Point(244, 109);
+            this.pboMov1.Name = "pboMov1";
+            this.pboMov1.Size = new System.Drawing.Size(175, 263);
+            this.pboMov1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov1.TabIndex = 3;
+            this.pboMov1.TabStop = false;
             // 
-            // panel10
+            // pboMov0
             // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.panel10.Location = new System.Drawing.Point(264, 40);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(878, 40);
-            this.panel10.TabIndex = 16;
+            this.pboMov0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboMov0.Location = new System.Drawing.Point(39, 109);
+            this.pboMov0.Name = "pboMov0";
+            this.pboMov0.Size = new System.Drawing.Size(175, 263);
+            this.pboMov0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov0.TabIndex = 2;
+            this.pboMov0.TabStop = false;
             // 
-            // panel19
+            // pboMov6
             // 
-            this.panel19.AutoScroll = true;
-            this.panel19.AutoScrollMargin = new System.Drawing.Size(0, 40);
-            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.panel19.Controls.Add(this.panel21);
-            this.panel19.Controls.Add(this.panel20);
-            this.panel19.Controls.Add(this.label54);
-            this.panel19.Controls.Add(this.panel24);
-            this.panel19.Location = new System.Drawing.Point(0, 0);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(880, 682);
-            this.panel19.TabIndex = 12;
+            this.pboMov6.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboMov6.Location = new System.Drawing.Point(449, 402);
+            this.pboMov6.Name = "pboMov6";
+            this.pboMov6.Size = new System.Drawing.Size(175, 263);
+            this.pboMov6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov6.TabIndex = 8;
+            this.pboMov6.TabStop = false;
             // 
-            // label54
+            // pboMov4
             // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label54.Location = new System.Drawing.Point(30, 30);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(168, 50);
-            this.label54.TabIndex = 10;
-            this.label54.Text = "Statistics";
+            this.pboMov4.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboMov4.Location = new System.Drawing.Point(39, 402);
+            this.pboMov4.Name = "pboMov4";
+            this.pboMov4.Size = new System.Drawing.Size(175, 263);
+            this.pboMov4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov4.TabIndex = 6;
+            this.pboMov4.TabStop = false;
             // 
-            // panel24
+            // pboMov5
             // 
-            this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel24.Controls.Add(this.label39);
-            this.panel24.Controls.Add(this.label58);
-            this.panel24.Location = new System.Drawing.Point(40, 109);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(381, 170);
-            this.panel24.TabIndex = 16;
+            this.pboMov5.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboMov5.Location = new System.Drawing.Point(244, 401);
+            this.pboMov5.Name = "pboMov5";
+            this.pboMov5.Size = new System.Drawing.Size(175, 263);
+            this.pboMov5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov5.TabIndex = 7;
+            this.pboMov5.TabStop = false;
             // 
-            // label58
+            // pboSearchIcon
             // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label58.Location = new System.Drawing.Point(40, 111);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(154, 30);
-            this.label58.TabIndex = 17;
-            this.label58.Text = "Movies Rented";
+            this.pboSearchIcon.Image = global::MovieMania.Properties.Resources.search_interface_symbol;
+            this.pboSearchIcon.Location = new System.Drawing.Point(11, 11);
+            this.pboSearchIcon.Name = "pboSearchIcon";
+            this.pboSearchIcon.Size = new System.Drawing.Size(28, 28);
+            this.pboSearchIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboSearchIcon.TabIndex = 0;
+            this.pboSearchIcon.TabStop = false;
             // 
-            // panel20
+            // pboBrowseMov11
             // 
-            this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel20.Controls.Add(this.label37);
-            this.panel20.Controls.Add(this.label40);
-            this.panel20.Location = new System.Drawing.Point(451, 109);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(381, 170);
-            this.panel20.TabIndex = 18;
+            this.pboBrowseMov11.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov11.Location = new System.Drawing.Point(654, 765);
+            this.pboBrowseMov11.Name = "pboBrowseMov11";
+            this.pboBrowseMov11.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov11.TabIndex = 15;
+            this.pboBrowseMov11.TabStop = false;
             // 
-            // panel21
+            // pboBrowseMov10
             // 
-            this.panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.panel21.Controls.Add(this.pictureBox27);
-            this.panel21.Location = new System.Drawing.Point(40, 309);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(792, 287);
-            this.panel21.TabIndex = 18;
+            this.pboBrowseMov10.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov10.Location = new System.Drawing.Point(449, 765);
+            this.pboBrowseMov10.Name = "pboBrowseMov10";
+            this.pboBrowseMov10.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov10.TabIndex = 14;
+            this.pboBrowseMov10.TabStop = false;
             // 
-            // label39
+            // pboBrowseMov8
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label39.Location = new System.Drawing.Point(23, 25);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(135, 86);
-            this.label39.TabIndex = 18;
-            this.label39.Text = "120";
+            this.pboBrowseMov8.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov8.Location = new System.Drawing.Point(39, 765);
+            this.pboBrowseMov8.Name = "pboBrowseMov8";
+            this.pboBrowseMov8.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov8.TabIndex = 12;
+            this.pboBrowseMov8.TabStop = false;
             // 
-            // label37
+            // pboBrowseMov9
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label37.Location = new System.Drawing.Point(23, 25);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(135, 86);
-            this.label37.TabIndex = 20;
-            this.label37.Text = "120";
+            this.pboBrowseMov9.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov9.Location = new System.Drawing.Point(244, 765);
+            this.pboBrowseMov9.Name = "pboBrowseMov9";
+            this.pboBrowseMov9.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov9.TabIndex = 13;
+            this.pboBrowseMov9.TabStop = false;
             // 
-            // label40
+            // pboBrowseMov3
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(241)))), ((int)(((byte)(242)))));
-            this.label40.Location = new System.Drawing.Point(40, 111);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(154, 30);
-            this.label40.TabIndex = 19;
-            this.label40.Text = "Movies Rented";
+            this.pboBrowseMov3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov3.Location = new System.Drawing.Point(654, 179);
+            this.pboBrowseMov3.Name = "pboBrowseMov3";
+            this.pboBrowseMov3.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov3.TabIndex = 5;
+            this.pboBrowseMov3.TabStop = false;
             // 
-            // pictureBox27
+            // pboBrowseMov2
             // 
-            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
-            this.pictureBox27.Location = new System.Drawing.Point(25, 25);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(742, 237);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox27.TabIndex = 0;
-            this.pictureBox27.TabStop = false;
+            this.pboBrowseMov2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov2.Location = new System.Drawing.Point(449, 179);
+            this.pboBrowseMov2.Name = "pboBrowseMov2";
+            this.pboBrowseMov2.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov2.TabIndex = 4;
+            this.pboBrowseMov2.TabStop = false;
+            // 
+            // pboBrowseMov7
+            // 
+            this.pboBrowseMov7.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov7.Location = new System.Drawing.Point(654, 472);
+            this.pboBrowseMov7.Name = "pboBrowseMov7";
+            this.pboBrowseMov7.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov7.TabIndex = 9;
+            this.pboBrowseMov7.TabStop = false;
+            // 
+            // pboBrowseMov1
+            // 
+            this.pboBrowseMov1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov1.Location = new System.Drawing.Point(244, 179);
+            this.pboBrowseMov1.Name = "pboBrowseMov1";
+            this.pboBrowseMov1.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov1.TabIndex = 3;
+            this.pboBrowseMov1.TabStop = false;
+            // 
+            // pboBrowseMov0
+            // 
+            this.pboBrowseMov0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov0.Location = new System.Drawing.Point(39, 179);
+            this.pboBrowseMov0.Name = "pboBrowseMov0";
+            this.pboBrowseMov0.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov0.TabIndex = 2;
+            this.pboBrowseMov0.TabStop = false;
+            // 
+            // pboBrowseMov6
+            // 
+            this.pboBrowseMov6.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov6.Location = new System.Drawing.Point(449, 472);
+            this.pboBrowseMov6.Name = "pboBrowseMov6";
+            this.pboBrowseMov6.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov6.TabIndex = 8;
+            this.pboBrowseMov6.TabStop = false;
+            // 
+            // pboBrowseMov4
+            // 
+            this.pboBrowseMov4.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov4.Location = new System.Drawing.Point(39, 472);
+            this.pboBrowseMov4.Name = "pboBrowseMov4";
+            this.pboBrowseMov4.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov4.TabIndex = 6;
+            this.pboBrowseMov4.TabStop = false;
+            // 
+            // pboBrowseMov5
+            // 
+            this.pboBrowseMov5.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov5.Location = new System.Drawing.Point(244, 471);
+            this.pboBrowseMov5.Name = "pboBrowseMov5";
+            this.pboBrowseMov5.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov5.TabIndex = 7;
+            this.pboBrowseMov5.TabStop = false;
+            // 
+            // pboRentalHistory0
+            // 
+            this.pboRentalHistory0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboRentalHistory0.Location = new System.Drawing.Point(0, 0);
+            this.pboRentalHistory0.Name = "pboRentalHistory0";
+            this.pboRentalHistory0.Size = new System.Drawing.Size(175, 263);
+            this.pboRentalHistory0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboRentalHistory0.TabIndex = 2;
+            this.pboRentalHistory0.TabStop = false;
+            // 
+            // pboRentalHistory1
+            // 
+            this.pboRentalHistory1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboRentalHistory1.Location = new System.Drawing.Point(0, 0);
+            this.pboRentalHistory1.Name = "pboRentalHistory1";
+            this.pboRentalHistory1.Size = new System.Drawing.Size(175, 263);
+            this.pboRentalHistory1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboRentalHistory1.TabIndex = 2;
+            this.pboRentalHistory1.TabStop = false;
+            // 
+            // pboRentalHistory2
+            // 
+            this.pboRentalHistory2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboRentalHistory2.Location = new System.Drawing.Point(0, 0);
+            this.pboRentalHistory2.Name = "pboRentalHistory2";
+            this.pboRentalHistory2.Size = new System.Drawing.Size(175, 263);
+            this.pboRentalHistory2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboRentalHistory2.TabIndex = 2;
+            this.pboRentalHistory2.TabStop = false;
+            // 
+            // pboRentalHistory3
+            // 
+            this.pboRentalHistory3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboRentalHistory3.Location = new System.Drawing.Point(0, 0);
+            this.pboRentalHistory3.Name = "pboRentalHistory3";
+            this.pboRentalHistory3.Size = new System.Drawing.Size(175, 263);
+            this.pboRentalHistory3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboRentalHistory3.TabIndex = 2;
+            this.pboRentalHistory3.TabStop = false;
+            // 
+            // pboCurrentRental0
+            // 
+            this.pboCurrentRental0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboCurrentRental0.Location = new System.Drawing.Point(0, 0);
+            this.pboCurrentRental0.Name = "pboCurrentRental0";
+            this.pboCurrentRental0.Size = new System.Drawing.Size(175, 263);
+            this.pboCurrentRental0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboCurrentRental0.TabIndex = 2;
+            this.pboCurrentRental0.TabStop = false;
+            // 
+            // pboCurrentRental1
+            // 
+            this.pboCurrentRental1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboCurrentRental1.Location = new System.Drawing.Point(0, 0);
+            this.pboCurrentRental1.Name = "pboCurrentRental1";
+            this.pboCurrentRental1.Size = new System.Drawing.Size(175, 263);
+            this.pboCurrentRental1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboCurrentRental1.TabIndex = 2;
+            this.pboCurrentRental1.TabStop = false;
+            // 
+            // pboCurrentRental2
+            // 
+            this.pboCurrentRental2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboCurrentRental2.Location = new System.Drawing.Point(0, 0);
+            this.pboCurrentRental2.Name = "pboCurrentRental2";
+            this.pboCurrentRental2.Size = new System.Drawing.Size(175, 263);
+            this.pboCurrentRental2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboCurrentRental2.TabIndex = 2;
+            this.pboCurrentRental2.TabStop = false;
+            // 
+            // pboCurrentRental3
+            // 
+            this.pboCurrentRental3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboCurrentRental3.Location = new System.Drawing.Point(0, 0);
+            this.pboCurrentRental3.Name = "pboCurrentRental3";
+            this.pboCurrentRental3.Size = new System.Drawing.Size(175, 263);
+            this.pboCurrentRental3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboCurrentRental3.TabIndex = 2;
+            this.pboCurrentRental3.TabStop = false;
+            // 
+            // pboGraphs
+            // 
+            this.pboGraphs.Image = ((System.Drawing.Image)(resources.GetObject("pboGraphs.Image")));
+            this.pboGraphs.Location = new System.Drawing.Point(25, 25);
+            this.pboGraphs.Name = "pboGraphs";
+            this.pboGraphs.Size = new System.Drawing.Size(742, 237);
+            this.pboGraphs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pboGraphs.TabIndex = 0;
+            this.pboGraphs.TabStop = false;
             // 
             // Home
             // 
@@ -1591,209 +1591,210 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(45)))), ((int)(((byte)(62)))));
             this.ClientSize = new System.Drawing.Size(1184, 760);
-            this.Controls.Add(this.panel10);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.pnlTopBanner);
+            this.Controls.Add(this.pnlNav);
+            this.Controls.Add(this.pnlBottomBanner);
+            this.Controls.Add(this.pnlScrollRightCover);
             this.Controls.Add(this.tcOptions);
-            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.pnlTabCover);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "Movie Mania";
+            this.pnlHomeContent.ResumeLayout(false);
+            this.pnlHomeContent.PerformLayout();
+            this.pnlNav.ResumeLayout(false);
             this.tcOptions.ResumeLayout(false);
             this.tabHome.ResumeLayout(false);
             this.tabBrowse.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.pnlSearch.ResumeLayout(false);
-            this.pnlSearch.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            this.pnlBrowseContent.ResumeLayout(false);
+            this.pnlBrowseContent.PerformLayout();
+            this.pnlSearchContainer.ResumeLayout(false);
+            this.pnlSearchContainer.PerformLayout();
             this.tabRentals.ResumeLayout(false);
+            this.pnlRentalContent.ResumeLayout(false);
+            this.pnlRentalContent.PerformLayout();
+            this.pnlRentalHistory0.ResumeLayout(false);
+            this.pnlRentalHistory0.PerformLayout();
+            this.pnlRentalHistory1.ResumeLayout(false);
+            this.pnlRentalHistory1.PerformLayout();
+            this.pnlRentalHistory2.ResumeLayout(false);
+            this.pnlRentalHistory2.PerformLayout();
+            this.pnlRentalHistory3.ResumeLayout(false);
+            this.pnlRentalHistory3.PerformLayout();
+            this.pnlCurrentRental0.ResumeLayout(false);
+            this.pnlCurrentRental0.PerformLayout();
+            this.pnlCurrentRental1.ResumeLayout(false);
+            this.pnlCurrentRental1.PerformLayout();
+            this.pnlCurrentRental2.ResumeLayout(false);
+            this.pnlCurrentRental2.PerformLayout();
+            this.pnlCurrentRental3.ResumeLayout(false);
+            this.pnlCurrentRental3.PerformLayout();
             this.tabStats.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
-            this.panel15.ResumeLayout(false);
-            this.panel15.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
-            this.panel16.ResumeLayout(false);
-            this.panel16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            this.panel24.ResumeLayout(false);
-            this.panel24.PerformLayout();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
-            this.panel21.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            this.pblStatisticsContent.ResumeLayout(false);
+            this.pblStatisticsContent.PerformLayout();
+            this.pnlGraphs.ResumeLayout(false);
+            this.pnlCurrentMembers.ResumeLayout(false);
+            this.pnlCurrentMembers.PerformLayout();
+            this.pnlMoviesRented.ResumeLayout(false);
+            this.pnlMoviesRented.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboSearchIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboGraphs)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pboMov0;
+        private System.Windows.Forms.PictureBox pboMov1;
+        private System.Windows.Forms.PictureBox pboMov3;
+        private System.Windows.Forms.PictureBox pboMov2;
+        private System.Windows.Forms.PictureBox pboMov5;
+        private System.Windows.Forms.PictureBox pboMov4;
+        private System.Windows.Forms.PictureBox pboMov7;
+        private System.Windows.Forms.PictureBox pboMov6;
+        private System.Windows.Forms.Panel pnlHomeContent;
+        private System.Windows.Forms.Label lblHomeTitle;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel pnlNav;
+        private System.Windows.Forms.Button btnHome;
+        private System.Windows.Forms.Button btnStatistics;
+        private System.Windows.Forms.Button btnBrowse;
+        private System.Windows.Forms.PictureBox pboLogo;
+        private System.Windows.Forms.Button btnRentals;
+        private System.Windows.Forms.PictureBox pboMov11;
+        private System.Windows.Forms.PictureBox pboMov10;
+        private System.Windows.Forms.PictureBox pboMov8;
+        private System.Windows.Forms.PictureBox pboMov9;
+        private System.Windows.Forms.Panel pnlScrollRightCover;
+        private System.Windows.Forms.Panel pnlTabCover;
+        private System.Windows.Forms.Panel pnlBottomBanner;
         private System.Windows.Forms.TabControl tcOptions;
         private System.Windows.Forms.TabPage tabHome;
         private System.Windows.Forms.TabPage tabBrowse;
         private System.Windows.Forms.TabPage tabRentals;
         private System.Windows.Forms.TabPage tabStats;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.Panel pnlBrowseContent;
+        private System.Windows.Forms.PictureBox pboBrowseMov11;
+        private System.Windows.Forms.PictureBox pboBrowseMov10;
+        private System.Windows.Forms.PictureBox pboBrowseMov8;
+        private System.Windows.Forms.PictureBox pboBrowseMov9;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.Panel pnlSearch;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox26;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox35;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.PictureBox pictureBox31;
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.PictureBox pictureBox32;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.PictureBox pictureBox37;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.PictureBox pictureBox38;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.PictureBox pictureBox33;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.PictureBox pictureBox34;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.PictureBox pictureBox36;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Panel panel24;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.Label lblBrowseTitle;
+        private System.Windows.Forms.PictureBox pboBrowseMov3;
+        private System.Windows.Forms.PictureBox pboBrowseMov2;
+        private System.Windows.Forms.PictureBox pboBrowseMov7;
+        private System.Windows.Forms.PictureBox pboBrowseMov1;
+        private System.Windows.Forms.PictureBox pboBrowseMov0;
+        private System.Windows.Forms.PictureBox pboBrowseMov6;
+        private System.Windows.Forms.PictureBox pboBrowseMov4;
+        private System.Windows.Forms.PictureBox pboBrowseMov5;
+        private System.Windows.Forms.Panel pnlSearchContainer;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.PictureBox pboSearchIcon;
+        private System.Windows.Forms.Panel pnlRentalContent;
+        private System.Windows.Forms.Label lblRentalsTitle;
+        private System.Windows.Forms.PictureBox pboCurrentRental0;
+        private System.Windows.Forms.Panel pnlCurrentRental0;
+        private System.Windows.Forms.Button btnCurrentRentalReturn0;
+        private System.Windows.Forms.Label lblCurrentRetDateVal0;
+        private System.Windows.Forms.Label lblCurrentRetDate0;
+        private System.Windows.Forms.Label lblCurrentRenDateVal0;
+        private System.Windows.Forms.Label lblCurrentRenDate0;
+        private System.Windows.Forms.Label lblRentalHistoryTitle;
+        private System.Windows.Forms.Panel pnlRentalHistory0;
+        private System.Windows.Forms.Label lblRentalHistoryReturnVal0;
+        private System.Windows.Forms.Label lblRentalHistoryReturn0;
+        private System.Windows.Forms.Label lblRentalHistoryDateVal0;
+        private System.Windows.Forms.Label lblRentalHistoryDate0;
+        private System.Windows.Forms.Button btnHistoryRent0;
+        private System.Windows.Forms.PictureBox pboRentalHistory0;
+        private System.Windows.Forms.Panel pnlRentalHistory1;
+        private System.Windows.Forms.Label lblRentalHistoryReturnVal1;
+        private System.Windows.Forms.Label lblRentalHistoryReturn1;
+        private System.Windows.Forms.Label lblRentalHistoryDateVal1;
+        private System.Windows.Forms.Label lblRentalHistoryDate1;
+        private System.Windows.Forms.Button btnHistoryRent1;
+        private System.Windows.Forms.PictureBox pboRentalHistory1;
+        private System.Windows.Forms.Panel pnlRentalHistory2;
+        private System.Windows.Forms.Label lblRentalHistoryReturnVal2;
+        private System.Windows.Forms.Label lblRentalHistoryReturn2;
+        private System.Windows.Forms.Label lblRentalHistoryDateVal2;
+        private System.Windows.Forms.Label lblRentalHistoryDate2;
+        private System.Windows.Forms.Button btnHistoryRent2;
+        private System.Windows.Forms.PictureBox pboRentalHistory2;
+        private System.Windows.Forms.Panel pnlRentalHistory3;
+        private System.Windows.Forms.Label lblRentalHistoryReturnVal3;
+        private System.Windows.Forms.Label lblRentalHistoryReturn3;
+        private System.Windows.Forms.Label lblRentalHistoryDateVal3;
+        private System.Windows.Forms.Label lblRentalHistoryDate3;
+        private System.Windows.Forms.Button btnHistoryRent3;
+        private System.Windows.Forms.PictureBox pboRentalHistory3;
+        private System.Windows.Forms.Panel pnlCurrentRental1;
+        private System.Windows.Forms.Label lblCurrentRetDateVal1;
+        private System.Windows.Forms.Label lblCurrentRetDate1;
+        private System.Windows.Forms.Label lblCurrentRenDateVal1;
+        private System.Windows.Forms.Label lblCurrentRenDate1;
+        private System.Windows.Forms.Button btnCurrentRentalReturn1;
+        private System.Windows.Forms.PictureBox pboCurrentRental1;
+        private System.Windows.Forms.Panel pnlCurrentRental2;
+        private System.Windows.Forms.Label lblCurrentRetDateVal2;
+        private System.Windows.Forms.Label lblCurrentRetDate2;
+        private System.Windows.Forms.Label lblCurrentRenDateVal2;
+        private System.Windows.Forms.Label lblCurrentRenDate2;
+        private System.Windows.Forms.Button btnCurrentRentalReturn2;
+        private System.Windows.Forms.PictureBox pboCurrentRental2;
+        private System.Windows.Forms.Panel pnlCurrentRental3;
+        private System.Windows.Forms.Label lblCurrentRetDateVal3;
+        private System.Windows.Forms.Label lblCurrentRetDate3;
+        private System.Windows.Forms.Label lblCurrentRenDateVal3;
+        private System.Windows.Forms.Label lblCurrentRenDate3;
+        private System.Windows.Forms.Button btnCurrentRentalReturn3;
+        private System.Windows.Forms.PictureBox pboCurrentRental3;
+        private System.Windows.Forms.Panel pnlTopBanner;
+        private System.Windows.Forms.Panel pblStatisticsContent;
+        private System.Windows.Forms.Label lblStatisticsTitle;
+        private System.Windows.Forms.Panel pnlMoviesRented;
+        private System.Windows.Forms.Label lblMoviesRented;
+        private System.Windows.Forms.Panel pnlGraphs;
+        private System.Windows.Forms.Panel pnlCurrentMembers;
+        private System.Windows.Forms.Label lblCurrentMembersVal;
+        private System.Windows.Forms.Label lblCurrentMembers;
+        private System.Windows.Forms.Label lblMoviesRentedVal;
+        private System.Windows.Forms.PictureBox pboGraphs;
     }
 }
 
