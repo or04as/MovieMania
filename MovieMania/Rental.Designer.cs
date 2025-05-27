@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Rental));
             this.lblHomeTitle = new System.Windows.Forms.Label();
             this.lblReturnDateVal = new System.Windows.Forms.Label();
             this.lblReturnDate = new System.Windows.Forms.Label();
@@ -40,17 +39,17 @@
             this.rdo7Days = new System.Windows.Forms.RadioButton();
             this.rdo14Days = new System.Windows.Forms.RadioButton();
             this.btnCurrentRentalReturn0 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.pnlContent = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pboMov0 = new System.Windows.Forms.PictureBox();
-            this.pboSearchIcon = new System.Windows.Forms.PictureBox();
-            this.txtSearch = new System.Windows.Forms.TextBox();
             this.pnlSearchContainer = new System.Windows.Forms.Panel();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.pboSearchIcon = new System.Windows.Forms.PictureBox();
+            this.pboMov0 = new System.Windows.Forms.PictureBox();
+            this.btnAddCustomer = new System.Windows.Forms.Button();
             this.pnlContent.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pboMov0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboSearchIcon)).BeginInit();
             this.pnlSearchContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboSearchIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov0)).BeginInit();
             this.SuspendLayout();
             // 
             // lblHomeTitle
@@ -184,27 +183,27 @@
             this.btnCurrentRentalReturn0.Text = "Rent";
             this.btnCurrentRentalReturn0.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnCancel
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button1.Location = new System.Drawing.Point(226, 347);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 40);
-            this.button1.TabIndex = 30;
-            this.button1.Text = "Cancel";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnCancel.FlatAppearance.BorderSize = 0;
+            this.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnCancel.Location = new System.Drawing.Point(226, 347);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(120, 40);
+            this.btnCancel.TabIndex = 30;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = false;
             // 
             // pnlContent
             // 
             this.pnlContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
             this.pnlContent.Controls.Add(this.pnlSearchContainer);
-            this.pnlContent.Controls.Add(this.button1);
+            this.pnlContent.Controls.Add(this.btnCancel);
             this.pnlContent.Controls.Add(this.lblHomeTitle);
             this.pnlContent.Controls.Add(this.btnCurrentRentalReturn0);
             this.pnlContent.Controls.Add(this.pboMov0);
@@ -222,42 +221,15 @@
             this.pnlContent.Size = new System.Drawing.Size(544, 431);
             this.pnlContent.TabIndex = 31;
             // 
-            // button2
+            // pnlSearchContainer
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(476, 135);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(35, 35);
-            this.button2.TabIndex = 31;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // pboMov0
-            // 
-            this.pboMov0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboMov0.Location = new System.Drawing.Point(21, 81);
-            this.pboMov0.Name = "pboMov0";
-            this.pboMov0.Size = new System.Drawing.Size(175, 263);
-            this.pboMov0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov0.TabIndex = 12;
-            this.pboMov0.TabStop = false;
-            // 
-            // pboSearchIcon
-            // 
-            this.pboSearchIcon.Image = global::MovieMania.Properties.Resources.search_interface_symbol;
-            this.pboSearchIcon.Location = new System.Drawing.Point(8, 8);
-            this.pboSearchIcon.Name = "pboSearchIcon";
-            this.pboSearchIcon.Size = new System.Drawing.Size(17, 17);
-            this.pboSearchIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboSearchIcon.TabIndex = 0;
-            this.pboSearchIcon.TabStop = false;
+            this.pnlSearchContainer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlSearchContainer.Controls.Add(this.txtSearch);
+            this.pnlSearchContainer.Controls.Add(this.pboSearchIcon);
+            this.pnlSearchContainer.Location = new System.Drawing.Point(227, 116);
+            this.pnlSearchContainer.Name = "pnlSearchContainer";
+            this.pnlSearchContainer.Size = new System.Drawing.Size(223, 33);
+            this.pnlSearchContainer.TabIndex = 31;
             // 
             // txtSearch
             // 
@@ -271,15 +243,42 @@
             this.txtSearch.TabIndex = 1;
             this.txtSearch.Text = "Search....";
             // 
-            // pnlSearchContainer
+            // pboSearchIcon
             // 
-            this.pnlSearchContainer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlSearchContainer.Controls.Add(this.txtSearch);
-            this.pnlSearchContainer.Controls.Add(this.pboSearchIcon);
-            this.pnlSearchContainer.Location = new System.Drawing.Point(227, 116);
-            this.pnlSearchContainer.Name = "pnlSearchContainer";
-            this.pnlSearchContainer.Size = new System.Drawing.Size(223, 33);
-            this.pnlSearchContainer.TabIndex = 31;
+            this.pboSearchIcon.Image = global::MovieMania.Properties.Resources.SearchImage;
+            this.pboSearchIcon.Location = new System.Drawing.Point(8, 8);
+            this.pboSearchIcon.Name = "pboSearchIcon";
+            this.pboSearchIcon.Size = new System.Drawing.Size(17, 17);
+            this.pboSearchIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboSearchIcon.TabIndex = 0;
+            this.pboSearchIcon.TabStop = false;
+            // 
+            // pboMov0
+            // 
+            this.pboMov0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboMov0.Location = new System.Drawing.Point(21, 81);
+            this.pboMov0.Name = "pboMov0";
+            this.pboMov0.Size = new System.Drawing.Size(175, 263);
+            this.pboMov0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov0.TabIndex = 12;
+            this.pboMov0.TabStop = false;
+            // 
+            // btnAddCustomer
+            // 
+            this.btnAddCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
+            this.btnAddCustomer.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(167)))), ((int)(((byte)(195)))));
+            this.btnAddCustomer.FlatAppearance.BorderSize = 0;
+            this.btnAddCustomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(49)))), ((int)(((byte)(69)))));
+            this.btnAddCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddCustomer.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddCustomer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(217)))), ((int)(((byte)(222)))));
+            this.btnAddCustomer.Image = global::MovieMania.Properties.Resources.Plus;
+            this.btnAddCustomer.Location = new System.Drawing.Point(476, 135);
+            this.btnAddCustomer.Name = "btnAddCustomer";
+            this.btnAddCustomer.Size = new System.Drawing.Size(35, 35);
+            this.btnAddCustomer.TabIndex = 31;
+            this.btnAddCustomer.UseVisualStyleBackColor = false;
             // 
             // Rental
             // 
@@ -287,17 +286,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(45)))), ((int)(((byte)(62)))));
             this.ClientSize = new System.Drawing.Size(583, 468);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnAddCustomer);
             this.Controls.Add(this.pnlContent);
             this.Name = "Rental";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rental";
             this.pnlContent.ResumeLayout(false);
             this.pnlContent.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pboMov0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboSearchIcon)).EndInit();
             this.pnlSearchContainer.ResumeLayout(false);
             this.pnlSearchContainer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboSearchIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboMov0)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -316,9 +315,9 @@
         private System.Windows.Forms.RadioButton rdo7Days;
         private System.Windows.Forms.RadioButton rdo14Days;
         private System.Windows.Forms.Button btnCurrentRentalReturn0;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Panel pnlContent;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnAddCustomer;
         private System.Windows.Forms.Panel pnlSearchContainer;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.PictureBox pboSearchIcon;

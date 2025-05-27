@@ -30,13 +30,26 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.pnlHomeContent = new System.Windows.Forms.Panel();
+            this.pboMov11 = new System.Windows.Forms.PictureBox();
+            this.pboMov10 = new System.Windows.Forms.PictureBox();
+            this.pboMov8 = new System.Windows.Forms.PictureBox();
+            this.pboMov9 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblHomeTitle = new System.Windows.Forms.Label();
+            this.pboMov3 = new System.Windows.Forms.PictureBox();
+            this.pboMov2 = new System.Windows.Forms.PictureBox();
+            this.pboMov7 = new System.Windows.Forms.PictureBox();
+            this.pboMov1 = new System.Windows.Forms.PictureBox();
+            this.pboMov0 = new System.Windows.Forms.PictureBox();
+            this.pboMov6 = new System.Windows.Forms.PictureBox();
+            this.pboMov4 = new System.Windows.Forms.PictureBox();
+            this.pboMov5 = new System.Windows.Forms.PictureBox();
             this.pnlNav = new System.Windows.Forms.Panel();
             this.btnRentals = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.btnStatistics = new System.Windows.Forms.Button();
             this.btnBrowse = new System.Windows.Forms.Button();
+            this.pboLogo = new System.Windows.Forms.PictureBox();
             this.pnlScrollRightCover = new System.Windows.Forms.Panel();
             this.pnlTabCover = new System.Windows.Forms.Panel();
             this.pnlBottomBanner = new System.Windows.Forms.Panel();
@@ -46,8 +59,21 @@
             this.pnlBrowseContent = new System.Windows.Forms.Panel();
             this.pnlSearchContainer = new System.Windows.Forms.Panel();
             this.txtSearch = new System.Windows.Forms.TextBox();
+            this.pboSearchIcon = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov11 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov10 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov8 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov9 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.lblBrowseTitle = new System.Windows.Forms.Label();
+            this.pboBrowseMov3 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov2 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov7 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov1 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov0 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov6 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov4 = new System.Windows.Forms.PictureBox();
+            this.pboBrowseMov5 = new System.Windows.Forms.PictureBox();
             this.tabRentals = new System.Windows.Forms.TabPage();
             this.pnlRentalContent = new System.Windows.Forms.Panel();
             this.lblRentalHistoryTitle = new System.Windows.Forms.Label();
@@ -57,24 +83,28 @@
             this.lblRentalHistoryDateVal0 = new System.Windows.Forms.Label();
             this.lblRentalHistoryDate0 = new System.Windows.Forms.Label();
             this.btnHistoryRent0 = new System.Windows.Forms.Button();
+            this.pboRentalHistory0 = new System.Windows.Forms.PictureBox();
             this.pnlRentalHistory1 = new System.Windows.Forms.Panel();
             this.lblRentalHistoryReturnVal1 = new System.Windows.Forms.Label();
             this.lblRentalHistoryReturn1 = new System.Windows.Forms.Label();
             this.lblRentalHistoryDateVal1 = new System.Windows.Forms.Label();
             this.lblRentalHistoryDate1 = new System.Windows.Forms.Label();
             this.btnHistoryRent1 = new System.Windows.Forms.Button();
+            this.pboRentalHistory1 = new System.Windows.Forms.PictureBox();
             this.pnlRentalHistory2 = new System.Windows.Forms.Panel();
             this.lblRentalHistoryReturnVal2 = new System.Windows.Forms.Label();
             this.lblRentalHistoryReturn2 = new System.Windows.Forms.Label();
             this.lblRentalHistoryDateVal2 = new System.Windows.Forms.Label();
             this.lblRentalHistoryDate2 = new System.Windows.Forms.Label();
             this.btnHistoryRent2 = new System.Windows.Forms.Button();
+            this.pboRentalHistory2 = new System.Windows.Forms.PictureBox();
             this.pnlRentalHistory3 = new System.Windows.Forms.Panel();
             this.lblRentalHistoryReturnVal3 = new System.Windows.Forms.Label();
             this.lblRentalHistoryReturn3 = new System.Windows.Forms.Label();
             this.lblRentalHistoryDateVal3 = new System.Windows.Forms.Label();
             this.lblRentalHistoryDate3 = new System.Windows.Forms.Label();
             this.btnHistoryRent3 = new System.Windows.Forms.Button();
+            this.pboRentalHistory3 = new System.Windows.Forms.PictureBox();
             this.lblRentalsTitle = new System.Windows.Forms.Label();
             this.pnlCurrentRental0 = new System.Windows.Forms.Panel();
             this.lblCurrentRetDateVal0 = new System.Windows.Forms.Label();
@@ -82,27 +112,32 @@
             this.lblCurrentRenDateVal0 = new System.Windows.Forms.Label();
             this.lblCurrentRenDate0 = new System.Windows.Forms.Label();
             this.btnCurrentRentalReturn0 = new System.Windows.Forms.Button();
+            this.pboCurrentRental0 = new System.Windows.Forms.PictureBox();
             this.pnlCurrentRental1 = new System.Windows.Forms.Panel();
             this.lblCurrentRetDateVal1 = new System.Windows.Forms.Label();
             this.lblCurrentRetDate1 = new System.Windows.Forms.Label();
             this.lblCurrentRenDateVal1 = new System.Windows.Forms.Label();
             this.lblCurrentRenDate1 = new System.Windows.Forms.Label();
             this.btnCurrentRentalReturn1 = new System.Windows.Forms.Button();
+            this.pboCurrentRental1 = new System.Windows.Forms.PictureBox();
             this.pnlCurrentRental2 = new System.Windows.Forms.Panel();
             this.lblCurrentRetDateVal2 = new System.Windows.Forms.Label();
             this.lblCurrentRetDate2 = new System.Windows.Forms.Label();
             this.lblCurrentRenDateVal2 = new System.Windows.Forms.Label();
             this.lblCurrentRenDate2 = new System.Windows.Forms.Label();
             this.btnCurrentRentalReturn2 = new System.Windows.Forms.Button();
+            this.pboCurrentRental2 = new System.Windows.Forms.PictureBox();
             this.pnlCurrentRental3 = new System.Windows.Forms.Panel();
             this.lblCurrentRetDateVal3 = new System.Windows.Forms.Label();
             this.lblCurrentRetDate3 = new System.Windows.Forms.Label();
             this.lblCurrentRenDateVal3 = new System.Windows.Forms.Label();
             this.lblCurrentRenDate3 = new System.Windows.Forms.Label();
             this.btnCurrentRentalReturn3 = new System.Windows.Forms.Button();
+            this.pboCurrentRental3 = new System.Windows.Forms.PictureBox();
             this.tabStats = new System.Windows.Forms.TabPage();
             this.pblStatisticsContent = new System.Windows.Forms.Panel();
             this.pnlGraphs = new System.Windows.Forms.Panel();
+            this.pboGraphs = new System.Windows.Forms.PictureBox();
             this.pnlCurrentMembers = new System.Windows.Forms.Panel();
             this.lblCurrentMembersVal = new System.Windows.Forms.Label();
             this.lblCurrentMembers = new System.Windows.Forms.Label();
@@ -111,64 +146,7 @@
             this.lblMoviesRentedVal = new System.Windows.Forms.Label();
             this.lblMoviesRented = new System.Windows.Forms.Label();
             this.pnlTopBanner = new System.Windows.Forms.Panel();
-            this.pboLogo = new System.Windows.Forms.PictureBox();
-            this.pboMov11 = new System.Windows.Forms.PictureBox();
-            this.pboMov10 = new System.Windows.Forms.PictureBox();
-            this.pboMov8 = new System.Windows.Forms.PictureBox();
-            this.pboMov9 = new System.Windows.Forms.PictureBox();
-            this.pboMov3 = new System.Windows.Forms.PictureBox();
-            this.pboMov2 = new System.Windows.Forms.PictureBox();
-            this.pboMov7 = new System.Windows.Forms.PictureBox();
-            this.pboMov1 = new System.Windows.Forms.PictureBox();
-            this.pboMov0 = new System.Windows.Forms.PictureBox();
-            this.pboMov6 = new System.Windows.Forms.PictureBox();
-            this.pboMov4 = new System.Windows.Forms.PictureBox();
-            this.pboMov5 = new System.Windows.Forms.PictureBox();
-            this.pboSearchIcon = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov11 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov10 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov8 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov9 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov3 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov2 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov7 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov1 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov0 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov6 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov4 = new System.Windows.Forms.PictureBox();
-            this.pboBrowseMov5 = new System.Windows.Forms.PictureBox();
-            this.pboRentalHistory0 = new System.Windows.Forms.PictureBox();
-            this.pboRentalHistory1 = new System.Windows.Forms.PictureBox();
-            this.pboRentalHistory2 = new System.Windows.Forms.PictureBox();
-            this.pboRentalHistory3 = new System.Windows.Forms.PictureBox();
-            this.pboCurrentRental0 = new System.Windows.Forms.PictureBox();
-            this.pboCurrentRental1 = new System.Windows.Forms.PictureBox();
-            this.pboCurrentRental2 = new System.Windows.Forms.PictureBox();
-            this.pboCurrentRental3 = new System.Windows.Forms.PictureBox();
-            this.pboGraphs = new System.Windows.Forms.PictureBox();
             this.pnlHomeContent.SuspendLayout();
-            this.pnlNav.SuspendLayout();
-            this.tcOptions.SuspendLayout();
-            this.tabHome.SuspendLayout();
-            this.tabBrowse.SuspendLayout();
-            this.pnlBrowseContent.SuspendLayout();
-            this.pnlSearchContainer.SuspendLayout();
-            this.tabRentals.SuspendLayout();
-            this.pnlRentalContent.SuspendLayout();
-            this.pnlRentalHistory0.SuspendLayout();
-            this.pnlRentalHistory1.SuspendLayout();
-            this.pnlRentalHistory2.SuspendLayout();
-            this.pnlRentalHistory3.SuspendLayout();
-            this.pnlCurrentRental0.SuspendLayout();
-            this.pnlCurrentRental1.SuspendLayout();
-            this.pnlCurrentRental2.SuspendLayout();
-            this.pnlCurrentRental3.SuspendLayout();
-            this.tabStats.SuspendLayout();
-            this.pblStatisticsContent.SuspendLayout();
-            this.pnlGraphs.SuspendLayout();
-            this.pnlCurrentMembers.SuspendLayout();
-            this.pnlMoviesRented.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pboLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboMov11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboMov10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboMov8)).BeginInit();
@@ -181,6 +159,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboMov6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboMov4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboMov5)).BeginInit();
+            this.pnlNav.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboLogo)).BeginInit();
+            this.tcOptions.SuspendLayout();
+            this.tabHome.SuspendLayout();
+            this.tabBrowse.SuspendLayout();
+            this.pnlBrowseContent.SuspendLayout();
+            this.pnlSearchContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboSearchIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov10)).BeginInit();
@@ -194,15 +179,30 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov5)).BeginInit();
+            this.tabRentals.SuspendLayout();
+            this.pnlRentalContent.SuspendLayout();
+            this.pnlRentalHistory0.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory0)).BeginInit();
+            this.pnlRentalHistory1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory1)).BeginInit();
+            this.pnlRentalHistory2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory2)).BeginInit();
+            this.pnlRentalHistory3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory3)).BeginInit();
+            this.pnlCurrentRental0.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental0)).BeginInit();
+            this.pnlCurrentRental1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental1)).BeginInit();
+            this.pnlCurrentRental2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental2)).BeginInit();
+            this.pnlCurrentRental3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental3)).BeginInit();
+            this.tabStats.SuspendLayout();
+            this.pblStatisticsContent.SuspendLayout();
+            this.pnlGraphs.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboGraphs)).BeginInit();
+            this.pnlCurrentMembers.SuspendLayout();
+            this.pnlMoviesRented.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlHomeContent
@@ -229,6 +229,50 @@
             this.pnlHomeContent.Size = new System.Drawing.Size(880, 682);
             this.pnlHomeContent.TabIndex = 10;
             // 
+            // pboMov11
+            // 
+            this.pboMov11.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboMov11.Location = new System.Drawing.Point(654, 695);
+            this.pboMov11.Name = "pboMov11";
+            this.pboMov11.Size = new System.Drawing.Size(175, 263);
+            this.pboMov11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov11.TabIndex = 15;
+            this.pboMov11.TabStop = false;
+            // 
+            // pboMov10
+            // 
+            this.pboMov10.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboMov10.Location = new System.Drawing.Point(449, 695);
+            this.pboMov10.Name = "pboMov10";
+            this.pboMov10.Size = new System.Drawing.Size(175, 263);
+            this.pboMov10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov10.TabIndex = 14;
+            this.pboMov10.TabStop = false;
+            // 
+            // pboMov8
+            // 
+            this.pboMov8.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboMov8.Location = new System.Drawing.Point(39, 695);
+            this.pboMov8.Name = "pboMov8";
+            this.pboMov8.Size = new System.Drawing.Size(175, 263);
+            this.pboMov8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov8.TabIndex = 12;
+            this.pboMov8.TabStop = false;
+            // 
+            // pboMov9
+            // 
+            this.pboMov9.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboMov9.Location = new System.Drawing.Point(244, 695);
+            this.pboMov9.Name = "pboMov9";
+            this.pboMov9.Size = new System.Drawing.Size(175, 263);
+            this.pboMov9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov9.TabIndex = 13;
+            this.pboMov9.TabStop = false;
+            // 
             // panel3
             // 
             this.panel3.Location = new System.Drawing.Point(0, 936);
@@ -246,6 +290,94 @@
             this.lblHomeTitle.Size = new System.Drawing.Size(283, 50);
             this.lblHomeTitle.TabIndex = 10;
             this.lblHomeTitle.Text = "Popular Movies";
+            // 
+            // pboMov3
+            // 
+            this.pboMov3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboMov3.Location = new System.Drawing.Point(654, 109);
+            this.pboMov3.Name = "pboMov3";
+            this.pboMov3.Size = new System.Drawing.Size(175, 263);
+            this.pboMov3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov3.TabIndex = 5;
+            this.pboMov3.TabStop = false;
+            // 
+            // pboMov2
+            // 
+            this.pboMov2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboMov2.Location = new System.Drawing.Point(449, 109);
+            this.pboMov2.Name = "pboMov2";
+            this.pboMov2.Size = new System.Drawing.Size(175, 263);
+            this.pboMov2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov2.TabIndex = 4;
+            this.pboMov2.TabStop = false;
+            // 
+            // pboMov7
+            // 
+            this.pboMov7.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboMov7.Location = new System.Drawing.Point(654, 402);
+            this.pboMov7.Name = "pboMov7";
+            this.pboMov7.Size = new System.Drawing.Size(175, 263);
+            this.pboMov7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov7.TabIndex = 9;
+            this.pboMov7.TabStop = false;
+            // 
+            // pboMov1
+            // 
+            this.pboMov1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboMov1.Location = new System.Drawing.Point(244, 109);
+            this.pboMov1.Name = "pboMov1";
+            this.pboMov1.Size = new System.Drawing.Size(175, 263);
+            this.pboMov1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov1.TabIndex = 3;
+            this.pboMov1.TabStop = false;
+            // 
+            // pboMov0
+            // 
+            this.pboMov0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboMov0.Location = new System.Drawing.Point(39, 109);
+            this.pboMov0.Name = "pboMov0";
+            this.pboMov0.Size = new System.Drawing.Size(175, 263);
+            this.pboMov0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov0.TabIndex = 2;
+            this.pboMov0.TabStop = false;
+            // 
+            // pboMov6
+            // 
+            this.pboMov6.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboMov6.Location = new System.Drawing.Point(449, 402);
+            this.pboMov6.Name = "pboMov6";
+            this.pboMov6.Size = new System.Drawing.Size(175, 263);
+            this.pboMov6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov6.TabIndex = 8;
+            this.pboMov6.TabStop = false;
+            // 
+            // pboMov4
+            // 
+            this.pboMov4.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboMov4.Location = new System.Drawing.Point(39, 402);
+            this.pboMov4.Name = "pboMov4";
+            this.pboMov4.Size = new System.Drawing.Size(175, 263);
+            this.pboMov4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov4.TabIndex = 6;
+            this.pboMov4.TabStop = false;
+            // 
+            // pboMov5
+            // 
+            this.pboMov5.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboMov5.Location = new System.Drawing.Point(244, 401);
+            this.pboMov5.Name = "pboMov5";
+            this.pboMov5.Size = new System.Drawing.Size(175, 263);
+            this.pboMov5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboMov5.TabIndex = 7;
+            this.pboMov5.TabStop = false;
             // 
             // pnlNav
             // 
@@ -319,6 +451,16 @@
             this.btnBrowse.TabIndex = 1;
             this.btnBrowse.Text = "Browse";
             this.btnBrowse.UseVisualStyleBackColor = true;
+            // 
+            // pboLogo
+            // 
+            this.pboLogo.Image = global::MovieMania.Properties.Resources.Logo;
+            this.pboLogo.Location = new System.Drawing.Point(0, -15);
+            this.pboLogo.Name = "pboLogo";
+            this.pboLogo.Size = new System.Drawing.Size(224, 224);
+            this.pboLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboLogo.TabIndex = 6;
+            this.pboLogo.TabStop = false;
             // 
             // pnlScrollRightCover
             // 
@@ -425,6 +567,60 @@
             this.txtSearch.TabIndex = 1;
             this.txtSearch.Text = "Search....";
             // 
+            // pboSearchIcon
+            // 
+            this.pboSearchIcon.Image = global::MovieMania.Properties.Resources.SearchImage;
+            this.pboSearchIcon.Location = new System.Drawing.Point(11, 11);
+            this.pboSearchIcon.Name = "pboSearchIcon";
+            this.pboSearchIcon.Size = new System.Drawing.Size(28, 28);
+            this.pboSearchIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboSearchIcon.TabIndex = 0;
+            this.pboSearchIcon.TabStop = false;
+            // 
+            // pboBrowseMov11
+            // 
+            this.pboBrowseMov11.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov11.Location = new System.Drawing.Point(654, 765);
+            this.pboBrowseMov11.Name = "pboBrowseMov11";
+            this.pboBrowseMov11.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov11.TabIndex = 15;
+            this.pboBrowseMov11.TabStop = false;
+            // 
+            // pboBrowseMov10
+            // 
+            this.pboBrowseMov10.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov10.Location = new System.Drawing.Point(449, 765);
+            this.pboBrowseMov10.Name = "pboBrowseMov10";
+            this.pboBrowseMov10.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov10.TabIndex = 14;
+            this.pboBrowseMov10.TabStop = false;
+            // 
+            // pboBrowseMov8
+            // 
+            this.pboBrowseMov8.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov8.Location = new System.Drawing.Point(39, 765);
+            this.pboBrowseMov8.Name = "pboBrowseMov8";
+            this.pboBrowseMov8.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov8.TabIndex = 12;
+            this.pboBrowseMov8.TabStop = false;
+            // 
+            // pboBrowseMov9
+            // 
+            this.pboBrowseMov9.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov9.Location = new System.Drawing.Point(244, 765);
+            this.pboBrowseMov9.Name = "pboBrowseMov9";
+            this.pboBrowseMov9.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov9.TabIndex = 13;
+            this.pboBrowseMov9.TabStop = false;
+            // 
             // panel8
             // 
             this.panel8.Location = new System.Drawing.Point(0, 936);
@@ -442,6 +638,94 @@
             this.lblBrowseTitle.Size = new System.Drawing.Size(275, 50);
             this.lblBrowseTitle.TabIndex = 10;
             this.lblBrowseTitle.Text = "Browse Movies";
+            // 
+            // pboBrowseMov3
+            // 
+            this.pboBrowseMov3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov3.Location = new System.Drawing.Point(654, 179);
+            this.pboBrowseMov3.Name = "pboBrowseMov3";
+            this.pboBrowseMov3.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov3.TabIndex = 5;
+            this.pboBrowseMov3.TabStop = false;
+            // 
+            // pboBrowseMov2
+            // 
+            this.pboBrowseMov2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov2.Location = new System.Drawing.Point(449, 179);
+            this.pboBrowseMov2.Name = "pboBrowseMov2";
+            this.pboBrowseMov2.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov2.TabIndex = 4;
+            this.pboBrowseMov2.TabStop = false;
+            // 
+            // pboBrowseMov7
+            // 
+            this.pboBrowseMov7.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov7.Location = new System.Drawing.Point(654, 472);
+            this.pboBrowseMov7.Name = "pboBrowseMov7";
+            this.pboBrowseMov7.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov7.TabIndex = 9;
+            this.pboBrowseMov7.TabStop = false;
+            // 
+            // pboBrowseMov1
+            // 
+            this.pboBrowseMov1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov1.Location = new System.Drawing.Point(244, 179);
+            this.pboBrowseMov1.Name = "pboBrowseMov1";
+            this.pboBrowseMov1.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov1.TabIndex = 3;
+            this.pboBrowseMov1.TabStop = false;
+            // 
+            // pboBrowseMov0
+            // 
+            this.pboBrowseMov0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov0.Location = new System.Drawing.Point(39, 179);
+            this.pboBrowseMov0.Name = "pboBrowseMov0";
+            this.pboBrowseMov0.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov0.TabIndex = 2;
+            this.pboBrowseMov0.TabStop = false;
+            // 
+            // pboBrowseMov6
+            // 
+            this.pboBrowseMov6.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov6.Location = new System.Drawing.Point(449, 472);
+            this.pboBrowseMov6.Name = "pboBrowseMov6";
+            this.pboBrowseMov6.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov6.TabIndex = 8;
+            this.pboBrowseMov6.TabStop = false;
+            // 
+            // pboBrowseMov4
+            // 
+            this.pboBrowseMov4.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboBrowseMov4.Location = new System.Drawing.Point(39, 472);
+            this.pboBrowseMov4.Name = "pboBrowseMov4";
+            this.pboBrowseMov4.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov4.TabIndex = 6;
+            this.pboBrowseMov4.TabStop = false;
+            // 
+            // pboBrowseMov5
+            // 
+            this.pboBrowseMov5.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboBrowseMov5.Location = new System.Drawing.Point(244, 471);
+            this.pboBrowseMov5.Name = "pboBrowseMov5";
+            this.pboBrowseMov5.Size = new System.Drawing.Size(175, 263);
+            this.pboBrowseMov5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboBrowseMov5.TabIndex = 7;
+            this.pboBrowseMov5.TabStop = false;
             // 
             // tabRentals
             // 
@@ -558,6 +842,17 @@
             this.btnHistoryRent0.Text = "Rent Again";
             this.btnHistoryRent0.UseVisualStyleBackColor = false;
             // 
+            // pboRentalHistory0
+            // 
+            this.pboRentalHistory0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboRentalHistory0.Location = new System.Drawing.Point(0, 0);
+            this.pboRentalHistory0.Name = "pboRentalHistory0";
+            this.pboRentalHistory0.Size = new System.Drawing.Size(175, 263);
+            this.pboRentalHistory0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboRentalHistory0.TabIndex = 2;
+            this.pboRentalHistory0.TabStop = false;
+            // 
             // pnlRentalHistory1
             // 
             this.pnlRentalHistory1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
@@ -631,6 +926,17 @@
             this.btnHistoryRent1.TabIndex = 2;
             this.btnHistoryRent1.Text = "Rent Again";
             this.btnHistoryRent1.UseVisualStyleBackColor = false;
+            // 
+            // pboRentalHistory1
+            // 
+            this.pboRentalHistory1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboRentalHistory1.Location = new System.Drawing.Point(0, 0);
+            this.pboRentalHistory1.Name = "pboRentalHistory1";
+            this.pboRentalHistory1.Size = new System.Drawing.Size(175, 263);
+            this.pboRentalHistory1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboRentalHistory1.TabIndex = 2;
+            this.pboRentalHistory1.TabStop = false;
             // 
             // pnlRentalHistory2
             // 
@@ -706,6 +1012,17 @@
             this.btnHistoryRent2.Text = "Rent Again";
             this.btnHistoryRent2.UseVisualStyleBackColor = false;
             // 
+            // pboRentalHistory2
+            // 
+            this.pboRentalHistory2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboRentalHistory2.Location = new System.Drawing.Point(0, 0);
+            this.pboRentalHistory2.Name = "pboRentalHistory2";
+            this.pboRentalHistory2.Size = new System.Drawing.Size(175, 263);
+            this.pboRentalHistory2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboRentalHistory2.TabIndex = 2;
+            this.pboRentalHistory2.TabStop = false;
+            // 
             // pnlRentalHistory3
             // 
             this.pnlRentalHistory3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
@@ -779,6 +1096,17 @@
             this.btnHistoryRent3.TabIndex = 2;
             this.btnHistoryRent3.Text = "Rent Again";
             this.btnHistoryRent3.UseVisualStyleBackColor = false;
+            // 
+            // pboRentalHistory3
+            // 
+            this.pboRentalHistory3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboRentalHistory3.Location = new System.Drawing.Point(0, 0);
+            this.pboRentalHistory3.Name = "pboRentalHistory3";
+            this.pboRentalHistory3.Size = new System.Drawing.Size(175, 263);
+            this.pboRentalHistory3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboRentalHistory3.TabIndex = 2;
+            this.pboRentalHistory3.TabStop = false;
             // 
             // lblRentalsTitle
             // 
@@ -865,6 +1193,17 @@
             this.btnCurrentRentalReturn0.Text = "Return Movie";
             this.btnCurrentRentalReturn0.UseVisualStyleBackColor = false;
             // 
+            // pboCurrentRental0
+            // 
+            this.pboCurrentRental0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboCurrentRental0.Location = new System.Drawing.Point(0, 0);
+            this.pboCurrentRental0.Name = "pboCurrentRental0";
+            this.pboCurrentRental0.Size = new System.Drawing.Size(175, 263);
+            this.pboCurrentRental0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboCurrentRental0.TabIndex = 2;
+            this.pboCurrentRental0.TabStop = false;
+            // 
             // pnlCurrentRental1
             // 
             this.pnlCurrentRental1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
@@ -938,6 +1277,17 @@
             this.btnCurrentRentalReturn1.TabIndex = 2;
             this.btnCurrentRentalReturn1.Text = "Return Movie";
             this.btnCurrentRentalReturn1.UseVisualStyleBackColor = false;
+            // 
+            // pboCurrentRental1
+            // 
+            this.pboCurrentRental1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboCurrentRental1.Location = new System.Drawing.Point(0, 0);
+            this.pboCurrentRental1.Name = "pboCurrentRental1";
+            this.pboCurrentRental1.Size = new System.Drawing.Size(175, 263);
+            this.pboCurrentRental1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboCurrentRental1.TabIndex = 2;
+            this.pboCurrentRental1.TabStop = false;
             // 
             // pnlCurrentRental2
             // 
@@ -1013,6 +1363,17 @@
             this.btnCurrentRentalReturn2.Text = "Return Movie";
             this.btnCurrentRentalReturn2.UseVisualStyleBackColor = false;
             // 
+            // pboCurrentRental2
+            // 
+            this.pboCurrentRental2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
+    "pg";
+            this.pboCurrentRental2.Location = new System.Drawing.Point(0, 0);
+            this.pboCurrentRental2.Name = "pboCurrentRental2";
+            this.pboCurrentRental2.Size = new System.Drawing.Size(175, 263);
+            this.pboCurrentRental2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboCurrentRental2.TabIndex = 2;
+            this.pboCurrentRental2.TabStop = false;
+            // 
             // pnlCurrentRental3
             // 
             this.pnlCurrentRental3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
@@ -1087,6 +1448,17 @@
             this.btnCurrentRentalReturn3.Text = "Return Movie";
             this.btnCurrentRentalReturn3.UseVisualStyleBackColor = false;
             // 
+            // pboCurrentRental3
+            // 
+            this.pboCurrentRental3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
+    "pg";
+            this.pboCurrentRental3.Location = new System.Drawing.Point(0, 0);
+            this.pboCurrentRental3.Name = "pboCurrentRental3";
+            this.pboCurrentRental3.Size = new System.Drawing.Size(175, 263);
+            this.pboCurrentRental3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboCurrentRental3.TabIndex = 2;
+            this.pboCurrentRental3.TabStop = false;
+            // 
             // tabStats
             // 
             this.tabStats.Controls.Add(this.pblStatisticsContent);
@@ -1119,6 +1491,16 @@
             this.pnlGraphs.Name = "pnlGraphs";
             this.pnlGraphs.Size = new System.Drawing.Size(792, 287);
             this.pnlGraphs.TabIndex = 18;
+            // 
+            // pboGraphs
+            // 
+            this.pboGraphs.Image = global::MovieMania.Properties.Resources.Graphs;
+            this.pboGraphs.Location = new System.Drawing.Point(25, 25);
+            this.pboGraphs.Name = "pboGraphs";
+            this.pboGraphs.Size = new System.Drawing.Size(742, 237);
+            this.pboGraphs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pboGraphs.TabIndex = 0;
+            this.pboGraphs.TabStop = false;
             // 
             // pnlCurrentMembers
             // 
@@ -1203,388 +1585,6 @@
             this.pnlTopBanner.Size = new System.Drawing.Size(878, 40);
             this.pnlTopBanner.TabIndex = 16;
             // 
-            // pboLogo
-            // 
-            this.pboLogo.Image = ((System.Drawing.Image)(resources.GetObject("pboLogo.Image")));
-            this.pboLogo.Location = new System.Drawing.Point(0, -15);
-            this.pboLogo.Name = "pboLogo";
-            this.pboLogo.Size = new System.Drawing.Size(224, 224);
-            this.pboLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboLogo.TabIndex = 6;
-            this.pboLogo.TabStop = false;
-            // 
-            // pboMov11
-            // 
-            this.pboMov11.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboMov11.Location = new System.Drawing.Point(654, 695);
-            this.pboMov11.Name = "pboMov11";
-            this.pboMov11.Size = new System.Drawing.Size(175, 263);
-            this.pboMov11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov11.TabIndex = 15;
-            this.pboMov11.TabStop = false;
-            // 
-            // pboMov10
-            // 
-            this.pboMov10.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboMov10.Location = new System.Drawing.Point(449, 695);
-            this.pboMov10.Name = "pboMov10";
-            this.pboMov10.Size = new System.Drawing.Size(175, 263);
-            this.pboMov10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov10.TabIndex = 14;
-            this.pboMov10.TabStop = false;
-            // 
-            // pboMov8
-            // 
-            this.pboMov8.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboMov8.Location = new System.Drawing.Point(39, 695);
-            this.pboMov8.Name = "pboMov8";
-            this.pboMov8.Size = new System.Drawing.Size(175, 263);
-            this.pboMov8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov8.TabIndex = 12;
-            this.pboMov8.TabStop = false;
-            // 
-            // pboMov9
-            // 
-            this.pboMov9.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboMov9.Location = new System.Drawing.Point(244, 695);
-            this.pboMov9.Name = "pboMov9";
-            this.pboMov9.Size = new System.Drawing.Size(175, 263);
-            this.pboMov9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov9.TabIndex = 13;
-            this.pboMov9.TabStop = false;
-            // 
-            // pboMov3
-            // 
-            this.pboMov3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboMov3.Location = new System.Drawing.Point(654, 109);
-            this.pboMov3.Name = "pboMov3";
-            this.pboMov3.Size = new System.Drawing.Size(175, 263);
-            this.pboMov3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov3.TabIndex = 5;
-            this.pboMov3.TabStop = false;
-            // 
-            // pboMov2
-            // 
-            this.pboMov2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboMov2.Location = new System.Drawing.Point(449, 109);
-            this.pboMov2.Name = "pboMov2";
-            this.pboMov2.Size = new System.Drawing.Size(175, 263);
-            this.pboMov2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov2.TabIndex = 4;
-            this.pboMov2.TabStop = false;
-            // 
-            // pboMov7
-            // 
-            this.pboMov7.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboMov7.Location = new System.Drawing.Point(654, 402);
-            this.pboMov7.Name = "pboMov7";
-            this.pboMov7.Size = new System.Drawing.Size(175, 263);
-            this.pboMov7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov7.TabIndex = 9;
-            this.pboMov7.TabStop = false;
-            // 
-            // pboMov1
-            // 
-            this.pboMov1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboMov1.Location = new System.Drawing.Point(244, 109);
-            this.pboMov1.Name = "pboMov1";
-            this.pboMov1.Size = new System.Drawing.Size(175, 263);
-            this.pboMov1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov1.TabIndex = 3;
-            this.pboMov1.TabStop = false;
-            // 
-            // pboMov0
-            // 
-            this.pboMov0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboMov0.Location = new System.Drawing.Point(39, 109);
-            this.pboMov0.Name = "pboMov0";
-            this.pboMov0.Size = new System.Drawing.Size(175, 263);
-            this.pboMov0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov0.TabIndex = 2;
-            this.pboMov0.TabStop = false;
-            // 
-            // pboMov6
-            // 
-            this.pboMov6.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboMov6.Location = new System.Drawing.Point(449, 402);
-            this.pboMov6.Name = "pboMov6";
-            this.pboMov6.Size = new System.Drawing.Size(175, 263);
-            this.pboMov6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov6.TabIndex = 8;
-            this.pboMov6.TabStop = false;
-            // 
-            // pboMov4
-            // 
-            this.pboMov4.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboMov4.Location = new System.Drawing.Point(39, 402);
-            this.pboMov4.Name = "pboMov4";
-            this.pboMov4.Size = new System.Drawing.Size(175, 263);
-            this.pboMov4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov4.TabIndex = 6;
-            this.pboMov4.TabStop = false;
-            // 
-            // pboMov5
-            // 
-            this.pboMov5.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboMov5.Location = new System.Drawing.Point(244, 401);
-            this.pboMov5.Name = "pboMov5";
-            this.pboMov5.Size = new System.Drawing.Size(175, 263);
-            this.pboMov5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboMov5.TabIndex = 7;
-            this.pboMov5.TabStop = false;
-            // 
-            // pboSearchIcon
-            // 
-            this.pboSearchIcon.Image = global::MovieMania.Properties.Resources.search_interface_symbol;
-            this.pboSearchIcon.Location = new System.Drawing.Point(11, 11);
-            this.pboSearchIcon.Name = "pboSearchIcon";
-            this.pboSearchIcon.Size = new System.Drawing.Size(28, 28);
-            this.pboSearchIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboSearchIcon.TabIndex = 0;
-            this.pboSearchIcon.TabStop = false;
-            // 
-            // pboBrowseMov11
-            // 
-            this.pboBrowseMov11.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboBrowseMov11.Location = new System.Drawing.Point(654, 765);
-            this.pboBrowseMov11.Name = "pboBrowseMov11";
-            this.pboBrowseMov11.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov11.TabIndex = 15;
-            this.pboBrowseMov11.TabStop = false;
-            // 
-            // pboBrowseMov10
-            // 
-            this.pboBrowseMov10.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboBrowseMov10.Location = new System.Drawing.Point(449, 765);
-            this.pboBrowseMov10.Name = "pboBrowseMov10";
-            this.pboBrowseMov10.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov10.TabIndex = 14;
-            this.pboBrowseMov10.TabStop = false;
-            // 
-            // pboBrowseMov8
-            // 
-            this.pboBrowseMov8.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboBrowseMov8.Location = new System.Drawing.Point(39, 765);
-            this.pboBrowseMov8.Name = "pboBrowseMov8";
-            this.pboBrowseMov8.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov8.TabIndex = 12;
-            this.pboBrowseMov8.TabStop = false;
-            // 
-            // pboBrowseMov9
-            // 
-            this.pboBrowseMov9.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboBrowseMov9.Location = new System.Drawing.Point(244, 765);
-            this.pboBrowseMov9.Name = "pboBrowseMov9";
-            this.pboBrowseMov9.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov9.TabIndex = 13;
-            this.pboBrowseMov9.TabStop = false;
-            // 
-            // pboBrowseMov3
-            // 
-            this.pboBrowseMov3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboBrowseMov3.Location = new System.Drawing.Point(654, 179);
-            this.pboBrowseMov3.Name = "pboBrowseMov3";
-            this.pboBrowseMov3.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov3.TabIndex = 5;
-            this.pboBrowseMov3.TabStop = false;
-            // 
-            // pboBrowseMov2
-            // 
-            this.pboBrowseMov2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboBrowseMov2.Location = new System.Drawing.Point(449, 179);
-            this.pboBrowseMov2.Name = "pboBrowseMov2";
-            this.pboBrowseMov2.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov2.TabIndex = 4;
-            this.pboBrowseMov2.TabStop = false;
-            // 
-            // pboBrowseMov7
-            // 
-            this.pboBrowseMov7.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboBrowseMov7.Location = new System.Drawing.Point(654, 472);
-            this.pboBrowseMov7.Name = "pboBrowseMov7";
-            this.pboBrowseMov7.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov7.TabIndex = 9;
-            this.pboBrowseMov7.TabStop = false;
-            // 
-            // pboBrowseMov1
-            // 
-            this.pboBrowseMov1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboBrowseMov1.Location = new System.Drawing.Point(244, 179);
-            this.pboBrowseMov1.Name = "pboBrowseMov1";
-            this.pboBrowseMov1.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov1.TabIndex = 3;
-            this.pboBrowseMov1.TabStop = false;
-            // 
-            // pboBrowseMov0
-            // 
-            this.pboBrowseMov0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboBrowseMov0.Location = new System.Drawing.Point(39, 179);
-            this.pboBrowseMov0.Name = "pboBrowseMov0";
-            this.pboBrowseMov0.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov0.TabIndex = 2;
-            this.pboBrowseMov0.TabStop = false;
-            // 
-            // pboBrowseMov6
-            // 
-            this.pboBrowseMov6.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboBrowseMov6.Location = new System.Drawing.Point(449, 472);
-            this.pboBrowseMov6.Name = "pboBrowseMov6";
-            this.pboBrowseMov6.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov6.TabIndex = 8;
-            this.pboBrowseMov6.TabStop = false;
-            // 
-            // pboBrowseMov4
-            // 
-            this.pboBrowseMov4.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboBrowseMov4.Location = new System.Drawing.Point(39, 472);
-            this.pboBrowseMov4.Name = "pboBrowseMov4";
-            this.pboBrowseMov4.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov4.TabIndex = 6;
-            this.pboBrowseMov4.TabStop = false;
-            // 
-            // pboBrowseMov5
-            // 
-            this.pboBrowseMov5.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboBrowseMov5.Location = new System.Drawing.Point(244, 471);
-            this.pboBrowseMov5.Name = "pboBrowseMov5";
-            this.pboBrowseMov5.Size = new System.Drawing.Size(175, 263);
-            this.pboBrowseMov5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboBrowseMov5.TabIndex = 7;
-            this.pboBrowseMov5.TabStop = false;
-            // 
-            // pboRentalHistory0
-            // 
-            this.pboRentalHistory0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboRentalHistory0.Location = new System.Drawing.Point(0, 0);
-            this.pboRentalHistory0.Name = "pboRentalHistory0";
-            this.pboRentalHistory0.Size = new System.Drawing.Size(175, 263);
-            this.pboRentalHistory0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboRentalHistory0.TabIndex = 2;
-            this.pboRentalHistory0.TabStop = false;
-            // 
-            // pboRentalHistory1
-            // 
-            this.pboRentalHistory1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboRentalHistory1.Location = new System.Drawing.Point(0, 0);
-            this.pboRentalHistory1.Name = "pboRentalHistory1";
-            this.pboRentalHistory1.Size = new System.Drawing.Size(175, 263);
-            this.pboRentalHistory1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboRentalHistory1.TabIndex = 2;
-            this.pboRentalHistory1.TabStop = false;
-            // 
-            // pboRentalHistory2
-            // 
-            this.pboRentalHistory2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboRentalHistory2.Location = new System.Drawing.Point(0, 0);
-            this.pboRentalHistory2.Name = "pboRentalHistory2";
-            this.pboRentalHistory2.Size = new System.Drawing.Size(175, 263);
-            this.pboRentalHistory2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboRentalHistory2.TabIndex = 2;
-            this.pboRentalHistory2.TabStop = false;
-            // 
-            // pboRentalHistory3
-            // 
-            this.pboRentalHistory3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboRentalHistory3.Location = new System.Drawing.Point(0, 0);
-            this.pboRentalHistory3.Name = "pboRentalHistory3";
-            this.pboRentalHistory3.Size = new System.Drawing.Size(175, 263);
-            this.pboRentalHistory3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboRentalHistory3.TabIndex = 2;
-            this.pboRentalHistory3.TabStop = false;
-            // 
-            // pboCurrentRental0
-            // 
-            this.pboCurrentRental0.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboCurrentRental0.Location = new System.Drawing.Point(0, 0);
-            this.pboCurrentRental0.Name = "pboCurrentRental0";
-            this.pboCurrentRental0.Size = new System.Drawing.Size(175, 263);
-            this.pboCurrentRental0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboCurrentRental0.TabIndex = 2;
-            this.pboCurrentRental0.TabStop = false;
-            // 
-            // pboCurrentRental1
-            // 
-            this.pboCurrentRental1.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboCurrentRental1.Location = new System.Drawing.Point(0, 0);
-            this.pboCurrentRental1.Name = "pboCurrentRental1";
-            this.pboCurrentRental1.Size = new System.Drawing.Size(175, 263);
-            this.pboCurrentRental1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboCurrentRental1.TabIndex = 2;
-            this.pboCurrentRental1.TabStop = false;
-            // 
-            // pboCurrentRental2
-            // 
-            this.pboCurrentRental2.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/ombsmhYUqR4qqOLOxAyr5V8hbyv.j" +
-    "pg";
-            this.pboCurrentRental2.Location = new System.Drawing.Point(0, 0);
-            this.pboCurrentRental2.Name = "pboCurrentRental2";
-            this.pboCurrentRental2.Size = new System.Drawing.Size(175, 263);
-            this.pboCurrentRental2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboCurrentRental2.TabIndex = 2;
-            this.pboCurrentRental2.TabStop = false;
-            // 
-            // pboCurrentRental3
-            // 
-            this.pboCurrentRental3.ImageLocation = "https://media.themoviedb.org/t/p/w440_and_h660_face/xWWg47tTfparvjK0WJNX4xL8lW2.j" +
-    "pg";
-            this.pboCurrentRental3.Location = new System.Drawing.Point(0, 0);
-            this.pboCurrentRental3.Name = "pboCurrentRental3";
-            this.pboCurrentRental3.Size = new System.Drawing.Size(175, 263);
-            this.pboCurrentRental3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboCurrentRental3.TabIndex = 2;
-            this.pboCurrentRental3.TabStop = false;
-            // 
-            // pboGraphs
-            // 
-            this.pboGraphs.Image = ((System.Drawing.Image)(resources.GetObject("pboGraphs.Image")));
-            this.pboGraphs.Location = new System.Drawing.Point(25, 25);
-            this.pboGraphs.Name = "pboGraphs";
-            this.pboGraphs.Size = new System.Drawing.Size(742, 237);
-            this.pboGraphs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pboGraphs.TabIndex = 0;
-            this.pboGraphs.TabStop = false;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1603,42 +1603,6 @@
             this.Text = "Movie Mania";
             this.pnlHomeContent.ResumeLayout(false);
             this.pnlHomeContent.PerformLayout();
-            this.pnlNav.ResumeLayout(false);
-            this.tcOptions.ResumeLayout(false);
-            this.tabHome.ResumeLayout(false);
-            this.tabBrowse.ResumeLayout(false);
-            this.pnlBrowseContent.ResumeLayout(false);
-            this.pnlBrowseContent.PerformLayout();
-            this.pnlSearchContainer.ResumeLayout(false);
-            this.pnlSearchContainer.PerformLayout();
-            this.tabRentals.ResumeLayout(false);
-            this.pnlRentalContent.ResumeLayout(false);
-            this.pnlRentalContent.PerformLayout();
-            this.pnlRentalHistory0.ResumeLayout(false);
-            this.pnlRentalHistory0.PerformLayout();
-            this.pnlRentalHistory1.ResumeLayout(false);
-            this.pnlRentalHistory1.PerformLayout();
-            this.pnlRentalHistory2.ResumeLayout(false);
-            this.pnlRentalHistory2.PerformLayout();
-            this.pnlRentalHistory3.ResumeLayout(false);
-            this.pnlRentalHistory3.PerformLayout();
-            this.pnlCurrentRental0.ResumeLayout(false);
-            this.pnlCurrentRental0.PerformLayout();
-            this.pnlCurrentRental1.ResumeLayout(false);
-            this.pnlCurrentRental1.PerformLayout();
-            this.pnlCurrentRental2.ResumeLayout(false);
-            this.pnlCurrentRental2.PerformLayout();
-            this.pnlCurrentRental3.ResumeLayout(false);
-            this.pnlCurrentRental3.PerformLayout();
-            this.tabStats.ResumeLayout(false);
-            this.pblStatisticsContent.ResumeLayout(false);
-            this.pblStatisticsContent.PerformLayout();
-            this.pnlGraphs.ResumeLayout(false);
-            this.pnlCurrentMembers.ResumeLayout(false);
-            this.pnlCurrentMembers.PerformLayout();
-            this.pnlMoviesRented.ResumeLayout(false);
-            this.pnlMoviesRented.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pboLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboMov11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboMov10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboMov8)).EndInit();
@@ -1651,6 +1615,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboMov6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboMov4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboMov5)).EndInit();
+            this.pnlNav.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pboLogo)).EndInit();
+            this.tcOptions.ResumeLayout(false);
+            this.tabHome.ResumeLayout(false);
+            this.tabBrowse.ResumeLayout(false);
+            this.pnlBrowseContent.ResumeLayout(false);
+            this.pnlBrowseContent.PerformLayout();
+            this.pnlSearchContainer.ResumeLayout(false);
+            this.pnlSearchContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboSearchIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov10)).EndInit();
@@ -1664,15 +1637,42 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboBrowseMov5)).EndInit();
+            this.tabRentals.ResumeLayout(false);
+            this.pnlRentalContent.ResumeLayout(false);
+            this.pnlRentalContent.PerformLayout();
+            this.pnlRentalHistory0.ResumeLayout(false);
+            this.pnlRentalHistory0.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory0)).EndInit();
+            this.pnlRentalHistory1.ResumeLayout(false);
+            this.pnlRentalHistory1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory1)).EndInit();
+            this.pnlRentalHistory2.ResumeLayout(false);
+            this.pnlRentalHistory2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory2)).EndInit();
+            this.pnlRentalHistory3.ResumeLayout(false);
+            this.pnlRentalHistory3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboRentalHistory3)).EndInit();
+            this.pnlCurrentRental0.ResumeLayout(false);
+            this.pnlCurrentRental0.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental0)).EndInit();
+            this.pnlCurrentRental1.ResumeLayout(false);
+            this.pnlCurrentRental1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental1)).EndInit();
+            this.pnlCurrentRental2.ResumeLayout(false);
+            this.pnlCurrentRental2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental2)).EndInit();
+            this.pnlCurrentRental3.ResumeLayout(false);
+            this.pnlCurrentRental3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboCurrentRental3)).EndInit();
+            this.tabStats.ResumeLayout(false);
+            this.pblStatisticsContent.ResumeLayout(false);
+            this.pblStatisticsContent.PerformLayout();
+            this.pnlGraphs.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pboGraphs)).EndInit();
+            this.pnlCurrentMembers.ResumeLayout(false);
+            this.pnlCurrentMembers.PerformLayout();
+            this.pnlMoviesRented.ResumeLayout(false);
+            this.pnlMoviesRented.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -47,12 +47,12 @@
             this.txtFirstname = new System.Windows.Forms.TextBox();
             this.pnlSearchContainer = new System.Windows.Forms.Panel();
             this.txtSearch = new System.Windows.Forms.TextBox();
+            this.pboSearchIcon = new System.Windows.Forms.PictureBox();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.btnDelete = new System.Windows.Forms.Button();
             this.lblFirstname = new System.Windows.Forms.Label();
             this.btnCreate = new System.Windows.Forms.Button();
-            this.pboSearchIcon = new System.Windows.Forms.PictureBox();
             this.pnlContent.SuspendLayout();
             this.pnlSearchContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboSearchIcon)).BeginInit();
@@ -294,6 +294,16 @@
             this.txtSearch.TabIndex = 1;
             this.txtSearch.Text = "Search....";
             // 
+            // pboSearchIcon
+            // 
+            this.pboSearchIcon.Image = global::MovieMania.Properties.Resources.SearchImage;
+            this.pboSearchIcon.Location = new System.Drawing.Point(8, 8);
+            this.pboSearchIcon.Name = "pboSearchIcon";
+            this.pboSearchIcon.Size = new System.Drawing.Size(17, 17);
+            this.pboSearchIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboSearchIcon.TabIndex = 0;
+            this.pboSearchIcon.TabStop = false;
+            // 
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(35)))), ((int)(((byte)(49)))));
@@ -363,16 +373,6 @@
             this.btnCreate.TabIndex = 48;
             this.btnCreate.Text = "Create";
             this.btnCreate.UseVisualStyleBackColor = false;
-            // 
-            // pboSearchIcon
-            // 
-            this.pboSearchIcon.Image = global::MovieMania.Properties.Resources.search_interface_symbol;
-            this.pboSearchIcon.Location = new System.Drawing.Point(8, 8);
-            this.pboSearchIcon.Name = "pboSearchIcon";
-            this.pboSearchIcon.Size = new System.Drawing.Size(17, 17);
-            this.pboSearchIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboSearchIcon.TabIndex = 0;
-            this.pboSearchIcon.TabStop = false;
             // 
             // Customer
             // 

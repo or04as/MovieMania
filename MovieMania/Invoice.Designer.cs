@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Invoice));
             this.pboLogo = new System.Windows.Forms.PictureBox();
             this.pnlTop = new System.Windows.Forms.Panel();
             this.lblName = new System.Windows.Forms.Label();
@@ -69,7 +68,7 @@
             // pboLogo
             // 
             this.pboLogo.BackColor = System.Drawing.Color.White;
-            this.pboLogo.Image = ((System.Drawing.Image)(resources.GetObject("pboLogo.Image")));
+            this.pboLogo.Image = global::MovieMania.Properties.Resources.InvoiceLogo;
             this.pboLogo.Location = new System.Drawing.Point(150, 0);
             this.pboLogo.Name = "pboLogo";
             this.pboLogo.Size = new System.Drawing.Size(200, 200);

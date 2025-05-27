@@ -82,7 +82,7 @@
       <DependentUpon>Invoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -111,7 +111,19 @@
     <None Include="img\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="img\search-interface-symbol.png" />
+    <None Include="img\Graphs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\InvoiceLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\movieMania.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\SearchImage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
