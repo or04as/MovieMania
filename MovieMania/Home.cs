@@ -12,6 +12,8 @@ namespace MovieMania
 {
     public partial class Home : Form
     {
+        //List<List<string>> movieList = new List<List<string>>() { new List<string>() { } }; // List to store movie data
+
         public Home()
         {
             InitializeComponent();
