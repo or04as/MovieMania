@@ -19,7 +19,7 @@ namespace MovieMania
 
         private void btnAddCustomer_Click(object sender, EventArgs e)
         {
-            Customer customer = new Customer();
+            Customer customer = new Customer("Add");
             customer.ShowDialog(); // Open Customer form as a dialog
         }
     }
